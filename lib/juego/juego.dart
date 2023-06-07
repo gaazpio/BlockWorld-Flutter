@@ -6,11 +6,11 @@ import 'package:flame/input.dart';
 import 'package:tfggzp/juego/jugadores/jugadorMain.dart';
 import 'extra/audio_game.dart';
 
-
-class miJuego extends FlameGame with HasCollisionDetection, HasKeyboardHandlerComponents {
+class miJuego extends FlameGame with HasCollisionDetection {
   int blockLives = 3;
+  int blockLivesExtra = 1;
   int monedasCogidas = 0;
-   late final jugadorMain block;
+  late final jugadorMain block;
 
   // Niveles? nivelActual;
   late Image imagenPersonajes;
@@ -29,7 +29,11 @@ class miJuego extends FlameGame with HasCollisionDetection, HasKeyboardHandlerCo
   @override
   void update(double dt) {
     if (blockLives == 0) {
-      overlays.add("/GameOver");
+     overlays.add("/GameOver");
+      pauseEngine();
+      AudioGame.pararSonidoFondo();
+    } else if (blockLivesExtra == 0) {
+      overlays.add("/GameOverExtra");
       pauseEngine();
       AudioGame.pararSonidoFondo();
     }
@@ -40,5 +44,8 @@ class miJuego extends FlameGame with HasCollisionDetection, HasKeyboardHandlerCo
     blockLives = 3;
     monedasCogidas = 0;
   }
-
+  void reiniciarTodoGameExtra() {
+    blockLivesExtra = 1;
+    blockLives = 3;
+  }
 }

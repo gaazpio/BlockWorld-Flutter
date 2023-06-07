@@ -10,11 +10,11 @@ import 'nivelesGameExtra.dart';
 class nivelExtraIniciado extends World with HasGameRef<miJuego> {
 
   NivelesExtraGame? nivelActual;
-  final hud = Hud(priority: 1);
+  final hud = HudGameExtra(priority: 1);
   late CameraComponent camera;
 
-  final knobPaint = BasicPalette.blue.withAlpha(200).paint();
-  final backgroundPaint = BasicPalette.blue.withAlpha(100).paint();
+  final knobPaint = BasicPalette.black.withAlpha(200).paint();
+  final backgroundPaint = BasicPalette.black.withAlpha(100).paint();
   late final JoystickComponent joystick;
 
   @override
@@ -35,9 +35,9 @@ class nivelExtraIniciado extends World with HasGameRef<miJuego> {
 
 
     joystick = JoystickComponent(
-      knob: CircleComponent(radius: 20, paint: knobPaint),
-      background: CircleComponent(radius: 35, paint: backgroundPaint),
-      margin: const EdgeInsets.only(right: 30, bottom: 20),
+      knob: CircleComponent(radius: 30, paint: knobPaint),
+      background: CircleComponent(radius: 40, paint: backgroundPaint),
+      margin: const EdgeInsets.only(right: 50, bottom: 30),
     );
     gameRef.add(joystick);
 

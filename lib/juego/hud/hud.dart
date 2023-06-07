@@ -82,3 +82,58 @@ class Hud extends PositionComponent with HasGameRef<miJuego> {
     super.update(dt);
   }
 }
+
+class HudGameExtra extends PositionComponent with HasGameRef<miJuego> {
+  HudGameExtra({super.children, super.priority}) {
+    // positionType = PositionType.viewport;
+  }
+  late TextComponent blockLivesExtra;
+
+  @override
+  Future<void>? onLoad() async {
+    final pauseButton = SpriteButtonComponent(
+      onPressed: () {
+        gameRef.overlays.add("/MenuPause");
+        gameRef.pauseEngine();
+        AudioGame.pausarSonidoFondo();
+      },
+      button: Sprite(
+        gameRef.imagenPersonajes,
+        srcSize: Vector2.all(32),
+        srcPosition: Vector2(32 * 9, 0),
+      ),
+      size: Vector2.all(32),
+      anchor: Anchor.topCenter,
+      position: Vector2(game.size.x / 2, 15),
+      scale: Vector2.all(1.5),
+    );
+    await add(pauseButton);
+
+    blockLivesExtra = TextComponent(
+      text: '${gameRef.blockLivesExtra}',
+      anchor: Anchor.topRight,
+      position: Vector2(gameRef.size.x - 80, 10),
+      scale: Vector2.all(1.5),
+    );
+    await add(blockLivesExtra);
+
+    final blockHead = SpriteComponent.fromImage(
+      gameRef.imagenPersonajes,
+      srcPosition: Vector2(0, 0),
+      anchor: Anchor.topRight,
+      srcSize: Vector2.all(32),
+      position: Vector2(blockLivesExtra.position.x - blockLivesExtra.size.x - 20, 10),
+      scale: Vector2.all(1.2),
+    );
+    await add(blockHead);
+
+    // return super.onLoad();
+  }
+
+  @override
+  void update(double dt) {
+    blockLivesExtra.text = '${gameRef.blockLivesExtra}';
+
+    super.update(dt);
+  }
+}

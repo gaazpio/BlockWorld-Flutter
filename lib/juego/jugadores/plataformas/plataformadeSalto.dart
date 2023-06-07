@@ -2,9 +2,15 @@ import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
 import 'package:flame/geometry.dart';
+import 'package:tfggzp/juego/juego.dart';
+import 'package:tfggzp/juego/juego_iniado.dart';
 import 'package:tfggzp/juego/jugadores/jugadorMain.dart';
+import 'package:tfggzp/juego/overlays/nivelExtra/nivelExtraGame/nivelExtraIniciado.dart';
 
-class PlataformaSalto extends PositionComponent with CollisionCallbacks, TapCallbacks{
+import '../../overlays/nivelExtra/nivelExtraGame/nivelesGameExtra.dart';
+
+class PlataformaSalto extends PositionComponent with CollisionCallbacks, TapCallbacks, ParentIsA<NivelesExtraGame>{
+
 
   PlataformaSalto({
     required Vector2? position,
@@ -25,15 +31,13 @@ class PlataformaSalto extends PositionComponent with CollisionCallbacks, TapCall
 
   @override
   Future<void>? onLoad() {
-    debugMode= true;
     add(RectangleHitbox()..collisionType = CollisionType.passive);
     //  return super.onLoad();
   }
 
   @override
   void onTapUp(TapUpEvent event) {
-    //print("has pulsado en la pantalla");
-
+    parent.block.estoySaltando=true;
     super.onTapUp(event);
   }
 }

@@ -13,14 +13,14 @@ import 'package:tfggzp/juego/jugadores/plataformas/plataforma.dart';
 import '../juego.dart';
 
 
-class jugadorMain extends SpriteComponent with CollisionCallbacks , KeyboardHandler, HasGameRef<miJuego>, TapCallbacks{
+class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<miJuego>, TapCallbacks{
 
   final Vector2 velocidad= Vector2(0, 0);
   double velocidadHorizontal= 0;
   double moveSpeed= 150;
   double velocidadSalto =460;
   double saltoChetado=800;
-  double gravedad = 10;
+  double gravedad = 30;
   final Vector2 sizeBlock= Vector2.all(30);
 
   int vecesUsadasSuperSalto=0;
@@ -59,29 +59,6 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , KeyboardHand
 }
 
   @override
-  bool onKeyEvent(RawKeyEvent event, Set<LogicalKeyboardKey> keysPressed) {
-    velocidadHorizontal = 0;
-
-    if(keysPressed.contains(LogicalKeyboardKey.keyA) || keysPressed.contains(LogicalKeyboardKey.arrowLeft))  {
-      velocidadHorizontal =- 1;
-    }
-    else if(keysPressed.contains(LogicalKeyboardKey.keyD) || keysPressed.contains(LogicalKeyboardKey.arrowRight)){
-      velocidadHorizontal =1;
-    }
-    if(keysPressed.contains(LogicalKeyboardKey.space)){
-      estoySaltando=true;
-    }else if(keysPressed.contains(LogicalKeyboardKey.keyP)){
-      if(vecesUsadasSuperSalto<2){
-        estoySaltando=true;
-        tipoSalto=true;
-        vecesUsadasSuperSalto++;
-      }
-
-    }
-    return true;
-  }
-
-  @override
   void onTapUp(TapUpEvent event) {
     estoySaltando=true;
     super.onTapUp(event);
@@ -94,21 +71,6 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , KeyboardHand
    // return super.onLoad();
   }
 
-
-
-/*  void joypadMoved(Direction direction){
-    //print("JOYPAD EN MOVIMIENTO:   ---->  "+direction.toString());
-    velocidadHorizontal=0;
-
-    if(direction==Direction.left){
-      velocidadHorizontal=-1;
-    }
-    else if(direction==Direction.right){
-      velocidadHorizontal=1;
-    }
-
-
-  }*/
 
   @override
   void update(double dt) {
@@ -160,6 +122,7 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , KeyboardHand
       hit();
       if(gameRef.blockLives>0){
         gameRef.blockLives--;
+        gameRef.blockLivesExtra--;
       }
     }
     super.onCollisionStart(intersectionPoints, other);

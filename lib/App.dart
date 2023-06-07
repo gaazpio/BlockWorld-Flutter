@@ -34,6 +34,7 @@ class App extends StatelessWidget {
           '/NivelExtraRegister': (_, game) => nivelExtraRegister(gameRef: game),
           '/JuegoPrincipal': (_, game) => juegoPrincipal(),
           '/MenuPause': (_, game) => pause_menu(gameRef: game),
+          '/GameOverExtra': (_, game) => GameoverExtra(game: game),
         },
         initialActiveOverlays: ['/MenuPrinci'],
       ),

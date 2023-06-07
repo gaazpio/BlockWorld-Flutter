@@ -19,10 +19,10 @@ import 'package:tfggzp/juego/jugadores/puerta.dart';
 import '../../../juego.dart';
 import '../../../jugadores/coinFinal.dart';
 import '../../../jugadores/jugadorMain.dart';
+import '../../../jugadores/plataformas/plataformadeSalto.dart';
 
-
-class NivelesExtraGame extends Component with HasGameRef<miJuego>, ParentIsA<nivelExtraIniciado> {
-
+class NivelesExtraGame extends Component
+    with HasGameRef<miJuego>, ParentIsA<nivelExtraIniciado> {
   final String nivel;
   late jugadorMain block;
   late Rect limitesNivel;
@@ -56,14 +56,15 @@ class NivelesExtraGame extends Component with HasGameRef<miJuego>, ParentIsA<niv
       add(plataforma);
     }
 
-    /* final plataformaParaSaltar = nivel.getLayer<ObjectGroup>('Salto');
+    final plataformaParaSaltar =
+        nivel.getLayer<ObjectGroup>('PlataformaDeSalto');
     for (final plataformaSalto in plataformaParaSaltar!.objects) {
       final plataformaS = PlataformaSalto(
-          position: Vector2(plataformaSalto.x, plataformaSalto.y),
-          size: Vector2(plataformaSalto.width, plataformaSalto.height),
+        position: Vector2(plataformaSalto.x, plataformaSalto.y),
+        size: Vector2(plataformaSalto.width, plataformaSalto.height),
       );
       add(plataformaS);
-    }*/
+    }
 
     final objetos = nivel.getLayer<ObjectGroup>('Objetos');
     for (final objetosMarcados in objetos!.objects) {
@@ -98,8 +99,6 @@ class NivelesExtraGame extends Component with HasGameRef<miJuego>, ParentIsA<niv
           );
           add(moneda);
           break;
-
-
       }
     }
   }

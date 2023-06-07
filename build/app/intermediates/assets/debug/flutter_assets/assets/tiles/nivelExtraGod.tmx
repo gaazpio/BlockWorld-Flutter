@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="400" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="1672">
+ <tileset firstgid="1" source="Spritesheet.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="400" height="8">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <objectgroup id="3" name="Plataforma">
+  <object id="1198" x="-0.174242" y="224.292" width="12800.6" height="32.25"/>
+  <object id="1199" x="220.75" y="94.7917" width="96.25" height="32"/>
+  <object id="1200" x="415" y="96.2917" width="64.25" height="63.9167"/>
+  <object id="1201" x="541.667" y="94.7917" width="95.3333" height="32.6667"/>
+  <object id="1202" x="861.182" y="94.8827" width="64" height="36"/>
+  <object id="1203" x="1024.36" y="94.7917" width="31.9063" height="65.3333"/>
+  <object id="1204" x="733" y="94.7917" width="31.75" height="32.25"/>
+  <object id="1205" x="1151.42" y="94.625" width="32.25" height="66.6667"/>
+  <object id="1206" x="1277" y="94.7917" width="128" height="32"/>
+  <object id="1207" x="1503" y="96.1247" width="32.6667" height="94.6667"/>
+  <object id="1208" x="1635.67" y="95.458" width="66.6667" height="96"/>
+  <object id="1209" x="1787.67" y="94.7917" width="97.3333" height="31.3333"/>
+  <object id="1210" x="1981" y="94.7917" width="32" height="31.3333"/>
+  <object id="1211" x="2109" y="95.4587" width="32" height="31.3333"/>
+  <object id="1212" x="2237" y="94.7917" width="160.667" height="31.3333"/>
+  <object id="1213" x="2464" y="97.4587" width="97" height="31.3333"/>
+  <object id="1215" x="2625.83" y="97.5417" width="96" height="31.25"/>
+  <object id="1216" x="2817.33" y="97.5417" width="96.25" height="31.5"/>
+  <object id="1217" x="3009.83" y="97.5417" width="126.25" height="31.25"/>
+  <object id="1218" x="3263.66" y="2.79166" width="65.6667" height="92.667"/>
+  <object id="1219" x="3392.25" y="1.45833" width="64.125" height="95.542"/>
+  <object id="1220" x="3520.25" y="2.79166" width="64.4167" height="92.667"/>
+  <object id="1221" x="3200.33" y="96.7007" width="448.006" height="64.0724"/>
+  <object id="1222" x="3648.15" y="128.84" width="32.2134" height="31.2284"/>
+  <object id="1223" x="4805.17" y="95.4583" width="64.5" height="32"/>
+  <object id="1224" x="4966.09" y="96.1253" width="64.5" height="32"/>
+  <object id="1225" x="5126.09" y="96.1253" width="64.5" height="32"/>
+  <object id="1226" x="5284.75" y="96.1253" width="64.5" height="32"/>
+  <object id="1227" x="5446.09" y="95.4583" width="64.5" height="32"/>
+  <object id="1228" x="5606.09" y="94.7913" width="64.5" height="32"/>
+  <object id="1229" x="5766.09" y="95.4583" width="64.5" height="32"/>
+  <object id="1230" x="5923.42" y="95.4583" width="64.5" height="32"/>
+  <object id="1231" x="6080.58" y="97.7917" width="64.5" height="32"/>
+  <object id="1232" x="6656.56" y="66.1253" width="64.5" height="32"/>
+  <object id="1233" x="11618.1" y="94.7917" width="64.5" height="32"/>
+  <object id="1234" x="7728.33" y="99.0417" width="64.5" height="32"/>
+  <object id="1236" x="6208.63" y="96.6097" width="96.1364" height="32"/>
+  <object id="1237" x="6497.5" y="97.4583" width="95.9943" height="32"/>
+  <object id="1238" x="8352.17" y="97.2083" width="159.994" height="32"/>
+  <object id="1239" x="8703" y="97.2083" width="95.9943" height="32"/>
+  <object id="1240" x="11425.9" y="97.6403" width="127.328" height="32"/>
+  <object id="1241" x="11011.3" y="97.2917" width="153.994" height="32"/>
+  <object id="1242" x="4614.34" y="96.7913" width="95.9943" height="32"/>
+  <object id="1243" x="3781.66" y="95.4163" width="32.0065" height="32.0417"/>
+  <object id="1244" x="3909.92" y="95.3953" width="32.0065" height="32.0417"/>
+  <object id="1245" x="4005.67" y="95.4373" width="32.0065" height="32.0417"/>
+  <object id="1246" x="4101.67" y="95.4373" width="32.0065" height="32.0417"/>
+  <object id="1247" x="4197.58" y="95.6193" width="32.0065" height="32.0417"/>
+  <object id="1248" x="4293.62" y="95.4813" width="32.0065" height="32.0417"/>
+  <object id="1249" x="4389.67" y="95.4583" width="32.0065" height="32.0417"/>
+  <object id="1250" x="4485.58" y="95.5283" width="32.0065" height="32.0417"/>
+  <object id="1251" x="3749.68" y="127.437" width="63.9127" height="32.0417"/>
+  <object id="1252" x="6400.41" y="96.7087" width="32.0065" height="32.0417"/>
+  <object id="1253" x="12512.2" y="32.7707" width="32.0065" height="32.0417"/>
+  <object id="1254" x="12480.2" y="96.7707" width="32.0065" height="32.0417"/>
+  <object id="1255" x="12416.3" y="128.817" width="32.0065" height="32.0417"/>
+  <object id="1256" x="11715.3" y="60.8959" width="32.0065" height="32.0417"/>
+  <object id="1257" x="11810.3" y="93.9077" width="32.0065" height="32.0417"/>
+  <object id="1258" x="11875.4" y="63.7837" width="32.0065" height="32.0417"/>
+  <object id="1260" x="11968.3" y="96.8337" width="32.0065" height="32.0417"/>
+  <object id="1261" x="12064.2" y="96.7277" width="32.0065" height="32.0417"/>
+  <object id="1262" x="12128.3" y="64.7707" width="32.0065" height="32.0417"/>
+  <object id="1263" x="12224.2" y="96.8337" width="32.0065" height="32.0417"/>
+  <object id="1264" x="12320.3" y="96.7917" width="32.0065" height="32.0417"/>
+  <object id="1265" x="11326.9" y="96.7707" width="32.0065" height="32.0417"/>
+  <object id="1266" x="11231.7" y="99.4373" width="32.0065" height="32.0417"/>
+  <object id="1267" x="10913.7" y="97.5623" width="32.0065" height="32.0417"/>
+  <object id="1268" x="10496.3" y="96.8127" width="32.0065" height="32.0417"/>
+  <object id="1269" x="10401.4" y="96.6347" width="32.0065" height="32.0417"/>
+  <object id="1270" x="7969.28" y="97.3007" width="32.0065" height="60.7084"/>
+  <object id="1271" x="7874.33" y="98.1197" width="32.0065" height="61.2084"/>
+  <object id="1272" x="8161.08" y="95.8543" width="32.0065" height="65.0417"/>
+  <object id="1273" x="8256.08" y="94.9377" width="32.0065" height="67.0417"/>
+  <object id="1274" x="9057.4" y="96.9227" width="32.0065" height="95.7084"/>
+  <object id="1275" x="8862.3" y="95.8147" width="32.0065" height="95.7084"/>
+  <object id="1276" x="9313.54" y="96.2857" width="32.0065" height="95.7084"/>
+  <object id="1277" x="10593" y="97.7927" width="253.34" height="31.9135"/>
+  <object id="1278" x="6785.39" y="65.6043" width="864.279" height="30.7084"/>
+  <object id="1279" x="8578.48" y="95.7497" width="63.8542" height="62.7083"/>
+  <object id="1280" x="9153.08" y="95.7917" width="64" height="96"/>
+  <object id="1281" x="9440.67" y="96.141" width="895.091" height="31.9389"/>
+  <object id="1282" x="12576.2" y="32.7917" width="64.1335" height="32"/>
+  <object id="1283" x="12736.3" y="32.6667" width="63.9501" height="32"/>
+  <object id="1284" x="12577.7" y="128.875" width="221.917" height="31.7083"/>
+  <object id="1285" x="61" y="95.1247" width="64" height="33"/>
+  <object id="1286" x="3647.77" y="159.955" width="64" height="32.1364"/>
+  <object id="1288" x="8063.33" y="100.312" width="32.0065" height="60.7084"/>
+  <object id="1289" x="8959" y="96.1458" width="32.0065" height="95.7084"/>
+  <object id="1291" type="pinchos" gid="8" x="159.547" y="223.833" width="32" height="32"/>
+  <object id="1292" type="pinchos" gid="8" x="191.797" y="223.833" width="32" height="32"/>
+  <object id="1293" type="pinchos" gid="8" x="222.964" y="223.5" width="32" height="32"/>
+  <object id="1294" type="pinchos" gid="8" x="255.797" y="223.583" width="32" height="32"/>
+  <object id="1295" type="pinchos" gid="8" x="289.214" y="223.583" width="32" height="32"/>
+  <object id="1296" type="pinchos" gid="8" x="319.464" y="223.708" width="32" height="32"/>
+  <object id="1297" type="pinchos" gid="8" x="351.714" y="223.708" width="32" height="32"/>
+  <object id="1298" type="pinchos" gid="8" x="383.032" y="223.617" width="32" height="32"/>
+  <object id="1299" type="pinchos" gid="8" x="415.714" y="223.458" width="32" height="32"/>
+  <object id="1300" type="pinchos" gid="8" x="449.13" y="223.458" width="32" height="32"/>
+  <object id="1301" type="pinchos" gid="8" x="479.899" y="223.538" width="32" height="32"/>
+  <object id="1302" type="pinchos" gid="8" x="512.149" y="223.538" width="32" height="32"/>
+  <object id="1303" type="pinchos" gid="8" x="543.286" y="223.628" width="32" height="32"/>
+  <object id="1304" type="pinchos" gid="8" x="576.149" y="223.651" width="32" height="32"/>
+  <object id="1305" type="pinchos" gid="8" x="609.566" y="223.833" width="32" height="32"/>
+  <object id="1306" type="pinchos" gid="8" x="639.441" y="223.788" width="32" height="32"/>
+  <object id="1307" type="pinchos" gid="8" x="671.441" y="223.538" width="32" height="32"/>
+  <object id="1308" type="pinchos" gid="8" x="703.384" y="223.572" width="32" height="32"/>
+  <object id="1309" type="pinchos" gid="8" x="736.066" y="223.413" width="32" height="32"/>
+  <object id="1310" type="pinchos" gid="8" x="768.732" y="223.913" width="32" height="32"/>
+  <object id="1311" type="pinchos" gid="8" x="799.295" y="223.691" width="32" height="32"/>
+  <object id="1312" type="pinchos" gid="8" x="831.67" y="223.441" width="32" height="32"/>
+  <object id="1313" type="pinchos" gid="8" x="862.837" y="223.983" width="32" height="32"/>
+  <object id="1314" type="pinchos" gid="8" x="895.233" y="224.003" width="32" height="32"/>
+  <object id="1315" type="pinchos" gid="8" x="928.65" y="224.003" width="32" height="32"/>
+  <object id="1316" type="pinchos" gid="8" x="958.9" y="224.128" width="32" height="32"/>
+  <object id="1317" type="pinchos" gid="8" x="991.15" y="224.128" width="32" height="32"/>
+  <object id="1318" type="pinchos" gid="8" x="1022.47" y="224.037" width="32" height="32"/>
+  <object id="1319" type="pinchos" gid="8" x="1055.15" y="223.878" width="32" height="32"/>
+  <object id="1320" type="pinchos" gid="8" x="1088.57" y="223.878" width="32" height="32"/>
+  <object id="1321" type="pinchos" gid="8" x="1119.34" y="223.958" width="32" height="32"/>
+  <object id="1322" type="pinchos" gid="8" x="1151.59" y="223.958" width="32" height="32"/>
+  <object id="1323" type="pinchos" gid="8" x="1182.72" y="223.867" width="32" height="32"/>
+  <object id="1324" type="pinchos" gid="8" x="1215.59" y="223.708" width="32" height="32"/>
+  <object id="1325" type="pinchos" gid="8" x="1249" y="223.708" width="32" height="32"/>
+  <object id="1326" type="pinchos" gid="8" x="1279.25" y="223.833" width="32" height="32"/>
+  <object id="1327" type="pinchos" gid="8" x="1311.5" y="223.833" width="32" height="32"/>
+  <object id="1328" type="pinchos" gid="8" x="1342.82" y="223.742" width="32" height="32"/>
+  <object id="1329" type="pinchos" gid="8" x="1375.5" y="223.583" width="32" height="32"/>
+  <object id="1330" type="pinchos" gid="8" x="1408.92" y="223.583" width="32" height="32"/>
+  <object id="1331" type="pinchos" gid="8" x="1438.25" y="223.858" width="32" height="32"/>
+  <object id="1332" type="pinchos" gid="8" x="1470.5" y="223.858" width="32" height="32"/>
+  <object id="1333" type="pinchos" gid="8" x="1501.67" y="223.525" width="32" height="32"/>
+  <object id="1334" type="pinchos" gid="8" x="1534.5" y="223.608" width="32" height="32"/>
+  <object id="1335" type="pinchos" gid="8" x="1567.92" y="223.608" width="32" height="32"/>
+  <object id="1336" type="pinchos" gid="8" x="1598.17" y="223.733" width="32" height="32"/>
+  <object id="1337" type="pinchos" gid="8" x="1630.42" y="223.733" width="32" height="32"/>
+  <object id="1338" type="pinchos" gid="8" x="1661.74" y="223.642" width="32" height="32"/>
+  <object id="1339" type="pinchos" gid="8" x="1694.42" y="223.483" width="32" height="32"/>
+  <object id="1340" type="pinchos" gid="8" x="1727.83" y="223.483" width="32" height="32"/>
+  <object id="1341" type="pinchos" gid="8" x="1758.6" y="223.563" width="32" height="32"/>
+  <object id="1342" type="pinchos" gid="8" x="1790.85" y="223.563" width="32" height="32"/>
+  <object id="1343" type="pinchos" gid="8" x="1821.99" y="223.653" width="32" height="32"/>
+  <object id="1344" type="pinchos" gid="8" x="1854.85" y="223.676" width="32" height="32"/>
+  <object id="1345" type="pinchos" gid="8" x="1888.27" y="223.858" width="32" height="32"/>
+  <object id="1346" type="pinchos" gid="8" x="1918.15" y="223.813" width="32" height="32"/>
+  <object id="1347" type="pinchos" gid="8" x="1950.15" y="223.563" width="32" height="32"/>
+  <object id="1348" type="pinchos" gid="8" x="1982.09" y="223.597" width="32" height="32"/>
+  <object id="1349" type="pinchos" gid="8" x="2014.77" y="223.438" width="32" height="32"/>
+  <object id="1350" type="pinchos" gid="8" x="2047.44" y="223.938" width="32" height="32"/>
+  <object id="1351" type="pinchos" gid="8" x="2078" y="223.716" width="32" height="32"/>
+  <object id="1352" type="pinchos" gid="8" x="2110.37" y="223.466" width="32" height="32"/>
+  <object id="1353" type="pinchos" gid="8" x="2141.54" y="224.008" width="32" height="32"/>
+  <object id="1354" type="pinchos" gid="8" x="2173.94" y="224.028" width="32" height="32"/>
+  <object id="1355" type="pinchos" gid="8" x="2207.35" y="224.028" width="32" height="32"/>
+  <object id="1356" type="pinchos" gid="8" x="2237.6" y="224.153" width="32" height="32"/>
+  <object id="1357" type="pinchos" gid="8" x="2269.85" y="224.153" width="32" height="32"/>
+  <object id="1358" type="pinchos" gid="8" x="2301.17" y="224.062" width="32" height="32"/>
+  <object id="1359" type="pinchos" gid="8" x="2333.85" y="223.903" width="32" height="32"/>
+  <object id="1360" type="pinchos" gid="8" x="2367.27" y="223.903" width="32" height="32"/>
+  <object id="1361" type="pinchos" gid="8" x="2398.04" y="223.983" width="32" height="32"/>
+  <object id="1362" type="pinchos" gid="8" x="2430.29" y="223.983" width="32" height="32"/>
+  <object id="1363" type="pinchos" gid="8" x="2461.42" y="223.892" width="32" height="32"/>
+  <object id="1364" type="pinchos" gid="8" x="2494.29" y="223.733" width="32" height="32"/>
+  <object id="1365" type="pinchos" gid="8" x="2527.7" y="223.733" width="32" height="32"/>
+  <object id="1366" type="pinchos" gid="8" x="2557.95" y="223.858" width="32" height="32"/>
+  <object id="1367" type="pinchos" gid="8" x="2590.2" y="223.858" width="32" height="32"/>
+  <object id="1368" type="pinchos" gid="8" x="2621.52" y="223.767" width="32" height="32"/>
+  <object id="1369" type="pinchos" gid="8" x="2654.2" y="223.608" width="32" height="32"/>
+  <object id="1370" type="pinchos" gid="8" x="2687.62" y="223.608" width="32" height="32"/>
+  <object id="1371" type="pinchos" gid="8" x="2719.08" y="223.512" width="32" height="32"/>
+  <object id="1372" type="pinchos" gid="8" x="2751.33" y="223.512" width="32" height="32"/>
+  <object id="1373" type="pinchos" gid="8" x="2782.5" y="223.179" width="32" height="32"/>
+  <object id="1374" type="pinchos" gid="8" x="2815.33" y="223.262" width="32" height="32"/>
+  <object id="1375" type="pinchos" gid="8" x="2848.75" y="223.262" width="32" height="32"/>
+  <object id="1376" type="pinchos" gid="8" x="2879" y="223.387" width="32" height="32"/>
+  <object id="1377" type="pinchos" gid="8" x="2911.25" y="223.387" width="32" height="32"/>
+  <object id="1378" type="pinchos" gid="8" x="2942.57" y="223.296" width="32" height="32"/>
+  <object id="1379" type="pinchos" gid="8" x="2975.25" y="223.137" width="32" height="32"/>
+  <object id="1380" type="pinchos" gid="8" x="3008.67" y="223.137" width="32" height="32"/>
+  <object id="1381" type="pinchos" gid="8" x="3039.44" y="223.217" width="32" height="32"/>
+  <object id="1382" type="pinchos" gid="8" x="3071.69" y="223.217" width="32" height="32"/>
+  <object id="1383" type="pinchos" gid="8" x="3102.82" y="223.307" width="32" height="32"/>
+  <object id="1384" type="pinchos" gid="8" x="3742.25" y="223.546" width="32" height="32"/>
+  <object id="1385" type="pinchos" gid="8" x="3775.12" y="223.387" width="32" height="32"/>
+  <object id="1386" type="pinchos" gid="8" x="3808.53" y="223.387" width="32" height="32"/>
+  <object id="1387" type="pinchos" gid="8" x="3838.78" y="223.512" width="32" height="32"/>
+  <object id="1388" type="pinchos" gid="8" x="3871.03" y="223.512" width="32" height="32"/>
+  <object id="1389" type="pinchos" gid="8" x="3902.35" y="223.421" width="32" height="32"/>
+  <object id="1390" type="pinchos" gid="8" x="3935.03" y="223.262" width="32" height="32"/>
+  <object id="1391" type="pinchos" gid="8" x="3968.45" y="223.262" width="32" height="32"/>
+  <object id="1392" type="pinchos" gid="8" x="3997.78" y="223.537" width="32" height="32"/>
+  <object id="1393" type="pinchos" gid="8" x="4030.03" y="223.537" width="32" height="32"/>
+  <object id="1394" type="pinchos" gid="8" x="4061.2" y="223.204" width="32" height="32"/>
+  <object id="1395" type="pinchos" gid="8" x="4094.03" y="223.287" width="32" height="32"/>
+  <object id="1396" type="pinchos" gid="8" x="4127.45" y="223.287" width="32" height="32"/>
+  <object id="1397" type="pinchos" gid="8" x="4157.7" y="223.412" width="32" height="32"/>
+  <object id="1398" type="pinchos" gid="8" x="4189.95" y="223.412" width="32" height="32"/>
+  <object id="1399" type="pinchos" gid="8" x="4221.27" y="223.321" width="32" height="32"/>
+  <object id="1400" type="pinchos" gid="8" x="4253.95" y="223.162" width="32" height="32"/>
+  <object id="1401" type="pinchos" gid="8" x="4287.36" y="223.162" width="32" height="32"/>
+  <object id="1402" type="pinchos" gid="8" x="4318.13" y="223.242" width="32" height="32"/>
+  <object id="1403" type="pinchos" gid="8" x="4350.38" y="223.242" width="32" height="32"/>
+  <object id="1404" type="pinchos" gid="8" x="4381.52" y="223.332" width="32" height="32"/>
+  <object id="1405" type="pinchos" gid="8" x="4414.38" y="223.355" width="32" height="32"/>
+  <object id="1406" type="pinchos" gid="8" x="4447.8" y="223.537" width="32" height="32"/>
+  <object id="1407" type="pinchos" gid="8" x="4477.68" y="223.492" width="32" height="32"/>
+  <object id="1408" type="pinchos" gid="8" x="4509.68" y="223.242" width="32" height="32"/>
+  <object id="1409" type="pinchos" gid="8" x="4541.62" y="223.276" width="32" height="32"/>
+  <object id="1410" type="pinchos" gid="8" x="4574.3" y="223.117" width="32" height="32"/>
+  <object id="1411" type="pinchos" gid="8" x="4606.97" y="223.617" width="32" height="32"/>
+  <object id="1412" type="pinchos" gid="8" x="4637.53" y="223.395" width="32" height="32"/>
+  <object id="1413" type="pinchos" gid="8" x="4669.9" y="223.145" width="32" height="32"/>
+  <object id="1414" type="pinchos" gid="8" x="4701.07" y="223.687" width="32" height="32"/>
+  <object id="1415" type="pinchos" gid="8" x="4733.47" y="223.707" width="32" height="32"/>
+  <object id="1416" type="pinchos" gid="8" x="4766.88" y="223.707" width="32" height="32"/>
+  <object id="1417" type="pinchos" gid="8" x="4797.13" y="223.832" width="32" height="32"/>
+  <object id="1418" type="pinchos" gid="8" x="4829.38" y="223.832" width="32" height="32"/>
+  <object id="1419" type="pinchos" gid="8" x="4860.7" y="223.741" width="32" height="32"/>
+  <object id="1420" type="pinchos" gid="8" x="4893.38" y="223.582" width="32" height="32"/>
+  <object id="1421" type="pinchos" gid="8" x="4926.8" y="223.582" width="32" height="32"/>
+  <object id="1422" type="pinchos" gid="8" x="4957.57" y="223.662" width="32" height="32"/>
+  <object id="1423" type="pinchos" gid="8" x="4989.82" y="223.662" width="32" height="32"/>
+  <object id="1424" type="pinchos" gid="8" x="5020.95" y="223.571" width="32" height="32"/>
+  <object id="1425" type="pinchos" gid="8" x="5053.82" y="223.412" width="32" height="32"/>
+  <object id="1426" type="pinchos" gid="8" x="5087.23" y="223.412" width="32" height="32"/>
+  <object id="1427" type="pinchos" gid="8" x="5117.48" y="223.537" width="32" height="32"/>
+  <object id="1428" type="pinchos" gid="8" x="5149.73" y="223.537" width="32" height="32"/>
+  <object id="1429" type="pinchos" gid="8" x="5181.05" y="223.446" width="32" height="32"/>
+  <object id="1430" type="pinchos" gid="8" x="5213.73" y="223.287" width="32" height="32"/>
+  <object id="1431" type="pinchos" gid="8" x="5247.15" y="223.287" width="32" height="32"/>
+  <object id="1432" type="pinchos" gid="8" x="5279.31" y="223.573" width="32" height="32"/>
+  <object id="1433" type="pinchos" gid="8" x="5311.56" y="223.573" width="32" height="32"/>
+  <object id="1434" type="pinchos" gid="8" x="5342.73" y="223.24" width="32" height="32"/>
+  <object id="1435" type="pinchos" gid="8" x="5375.56" y="223.323" width="32" height="32"/>
+  <object id="1436" type="pinchos" gid="8" x="5408.98" y="223.323" width="32" height="32"/>
+  <object id="1437" type="pinchos" gid="8" x="5439.23" y="223.448" width="32" height="32"/>
+  <object id="1438" type="pinchos" gid="8" x="5471.48" y="223.448" width="32" height="32"/>
+  <object id="1439" type="pinchos" gid="8" x="5502.8" y="223.357" width="32" height="32"/>
+  <object id="1440" type="pinchos" gid="8" x="5535.48" y="223.198" width="32" height="32"/>
+  <object id="1441" type="pinchos" gid="8" x="5568.89" y="223.198" width="32" height="32"/>
+  <object id="1442" type="pinchos" gid="8" x="5599.66" y="223.278" width="32" height="32"/>
+  <object id="1443" type="pinchos" gid="8" x="5631.91" y="223.278" width="32" height="32"/>
+  <object id="1444" type="pinchos" gid="8" x="5663.05" y="223.368" width="32" height="32"/>
+  <object id="1445" type="pinchos" gid="8" x="5695.91" y="223.391" width="32" height="32"/>
+  <object id="1446" type="pinchos" gid="8" x="5729.33" y="223.573" width="32" height="32"/>
+  <object id="1447" type="pinchos" gid="8" x="5759.2" y="223.528" width="32" height="32"/>
+  <object id="1448" type="pinchos" gid="8" x="5791.2" y="223.278" width="32" height="32"/>
+  <object id="1449" type="pinchos" gid="8" x="5823.15" y="223.312" width="32" height="32"/>
+  <object id="1450" type="pinchos" gid="8" x="5855.83" y="223.153" width="32" height="32"/>
+  <object id="1451" type="pinchos" gid="8" x="5888.5" y="223.653" width="32" height="32"/>
+  <object id="1452" type="pinchos" gid="8" x="5919.06" y="223.431" width="32" height="32"/>
+  <object id="1453" type="pinchos" gid="8" x="5951.43" y="223.181" width="32" height="32"/>
+  <object id="1454" type="pinchos" gid="8" x="5982.6" y="223.723" width="32" height="32"/>
+  <object id="1455" type="pinchos" gid="8" x="6015" y="223.743" width="32" height="32"/>
+  <object id="1456" type="pinchos" gid="8" x="6048.41" y="223.743" width="32" height="32"/>
+  <object id="1457" type="pinchos" gid="8" x="6078.66" y="223.868" width="32" height="32"/>
+  <object id="1458" type="pinchos" gid="8" x="6110.91" y="223.868" width="32" height="32"/>
+  <object id="1459" type="pinchos" gid="8" x="6142.23" y="223.777" width="32" height="32"/>
+  <object id="1460" type="pinchos" gid="8" x="6174.91" y="223.618" width="32" height="32"/>
+  <object id="1461" type="pinchos" gid="8" x="6208.33" y="223.618" width="32" height="32"/>
+  <object id="1462" type="pinchos" gid="8" x="6239.1" y="223.698" width="32" height="32"/>
+  <object id="1463" type="pinchos" gid="8" x="6271.35" y="223.698" width="32" height="32"/>
+  <object id="1464" type="pinchos" gid="8" x="6302.48" y="223.607" width="32" height="32"/>
+  <object id="1465" type="pinchos" gid="8" x="6335.35" y="223.448" width="32" height="32"/>
+  <object id="1466" type="pinchos" gid="8" x="6368.76" y="223.448" width="32" height="32"/>
+  <object id="1467" type="pinchos" gid="8" x="6399.01" y="223.573" width="32" height="32"/>
+  <object id="1468" type="pinchos" gid="8" x="6431.26" y="223.573" width="32" height="32"/>
+  <object id="1469" type="pinchos" gid="8" x="6462.58" y="223.482" width="32" height="32"/>
+  <object id="1470" type="pinchos" gid="8" x="6495.26" y="223.323" width="32" height="32"/>
+  <object id="1471" type="pinchos" gid="8" x="6528.68" y="223.323" width="32" height="32"/>
+  <object id="1472" type="pinchos" gid="8" x="6558.01" y="223.598" width="32" height="32"/>
+  <object id="1473" type="pinchos" gid="8" x="6590.26" y="223.598" width="32" height="32"/>
+  <object id="1474" type="pinchos" gid="8" x="6621.43" y="223.265" width="32" height="32"/>
+  <object id="1475" type="pinchos" gid="8" x="6654.26" y="223.348" width="32" height="32"/>
+  <object id="1476" type="pinchos" gid="8" x="6687.68" y="223.348" width="32" height="32"/>
+  <object id="1477" type="pinchos" gid="8" x="6717.93" y="223.473" width="32" height="32"/>
+  <object id="1478" type="pinchos" gid="8" x="6750.18" y="223.473" width="32" height="32"/>
+  <object id="1479" type="pinchos" gid="8" x="6781.5" y="223.382" width="32" height="32"/>
+  <object id="1480" type="pinchos" gid="8" x="6814.18" y="223.223" width="32" height="32"/>
+  <object id="1481" type="pinchos" gid="8" x="6847.59" y="223.223" width="32" height="32"/>
+  <object id="1482" type="pinchos" gid="8" x="6878.36" y="223.303" width="32" height="32"/>
+  <object id="1483" type="pinchos" gid="8" x="6910.61" y="223.303" width="32" height="32"/>
+  <object id="1484" type="pinchos" gid="8" x="6941.75" y="223.393" width="32" height="32"/>
+  <object id="1485" type="pinchos" gid="8" x="6974.61" y="223.416" width="32" height="32"/>
+  <object id="1486" type="pinchos" gid="8" x="7008.03" y="223.598" width="32" height="32"/>
+  <object id="1487" type="pinchos" gid="8" x="7037.91" y="223.553" width="32" height="32"/>
+  <object id="1488" type="pinchos" gid="8" x="7069.91" y="223.303" width="32" height="32"/>
+  <object id="1489" type="pinchos" gid="8" x="7101.85" y="223.337" width="32" height="32"/>
+  <object id="1490" type="pinchos" gid="8" x="7134.53" y="223.178" width="32" height="32"/>
+  <object id="1491" type="pinchos" gid="8" x="7167.2" y="223.678" width="32" height="32"/>
+  <object id="1492" type="pinchos" gid="8" x="7197.76" y="223.456" width="32" height="32"/>
+  <object id="1493" type="pinchos" gid="8" x="7230.13" y="223.206" width="32" height="32"/>
+  <object id="1494" type="pinchos" gid="8" x="7261.3" y="223.748" width="32" height="32"/>
+  <object id="1495" type="pinchos" gid="8" x="7293.7" y="223.768" width="32" height="32"/>
+  <object id="1496" type="pinchos" gid="8" x="7327.11" y="223.768" width="32" height="32"/>
+  <object id="1497" type="pinchos" gid="8" x="7357.36" y="223.893" width="32" height="32"/>
+  <object id="1498" type="pinchos" gid="8" x="7389.61" y="223.893" width="32" height="32"/>
+  <object id="1499" type="pinchos" gid="8" x="7420.93" y="223.802" width="32" height="32"/>
+  <object id="1500" type="pinchos" gid="8" x="7453.61" y="223.643" width="32" height="32"/>
+  <object id="1501" type="pinchos" gid="8" x="7487.03" y="223.643" width="32" height="32"/>
+  <object id="1502" type="pinchos" gid="8" x="7517.8" y="223.723" width="32" height="32"/>
+  <object id="1503" type="pinchos" gid="8" x="7550.05" y="223.723" width="32" height="32"/>
+  <object id="1504" type="pinchos" gid="8" x="7581.18" y="223.632" width="32" height="32"/>
+  <object id="1505" type="pinchos" gid="8" x="7614.05" y="223.473" width="32" height="32"/>
+  <object id="1506" type="pinchos" gid="8" x="7647.46" y="223.473" width="32" height="32"/>
+  <object id="1507" type="pinchos" gid="8" x="7677.71" y="223.598" width="32" height="32"/>
+  <object id="1508" type="pinchos" gid="8" x="7709.96" y="223.598" width="32" height="32"/>
+  <object id="1509" type="pinchos" gid="8" x="7741.28" y="223.507" width="32" height="32"/>
+  <object id="1510" type="pinchos" gid="8" x="7773.96" y="223.348" width="32" height="32"/>
+  <object id="1511" type="pinchos" gid="8" x="7807.38" y="223.348" width="32" height="32"/>
+  <object id="1512" type="pinchos" gid="8" x="7838.84" y="223.252" width="32" height="32"/>
+  <object id="1513" type="pinchos" gid="8" x="7871.09" y="223.252" width="32" height="32"/>
+  <object id="1514" type="pinchos" gid="8" x="7902.26" y="222.919" width="32" height="32"/>
+  <object id="1515" type="pinchos" gid="8" x="7935.09" y="223.002" width="32" height="32"/>
+  <object id="1516" type="pinchos" gid="8" x="7968.51" y="223.002" width="32" height="32"/>
+  <object id="1517" type="pinchos" gid="8" x="7998.76" y="223.127" width="32" height="32"/>
+  <object id="1518" type="pinchos" gid="8" x="8031.01" y="223.127" width="32" height="32"/>
+  <object id="1519" type="pinchos" gid="8" x="8062.33" y="223.036" width="32" height="32"/>
+  <object id="1520" type="pinchos" gid="8" x="8095.01" y="222.877" width="32" height="32"/>
+  <object id="1521" type="pinchos" gid="8" x="8128.43" y="222.877" width="32" height="32"/>
+  <object id="1522" type="pinchos" gid="8" x="8159.2" y="222.957" width="32" height="32"/>
+  <object id="1523" type="pinchos" gid="8" x="8191.45" y="222.957" width="32" height="32"/>
+  <object id="1524" type="pinchos" gid="8" x="8222.58" y="223.047" width="32" height="32"/>
+  <object id="1525" type="pinchos" gid="8" x="8255.5" y="223.744" width="32" height="32"/>
+  <object id="1526" type="pinchos" gid="8" x="8288.37" y="223.585" width="32" height="32"/>
+  <object id="1527" type="pinchos" gid="8" x="8321.78" y="223.585" width="32" height="32"/>
+  <object id="1528" type="pinchos" gid="8" x="8352.03" y="223.71" width="32" height="32"/>
+  <object id="1529" type="pinchos" gid="8" x="8384.28" y="223.71" width="32" height="32"/>
+  <object id="1530" type="pinchos" gid="8" x="8415.6" y="223.619" width="32" height="32"/>
+  <object id="1531" type="pinchos" gid="8" x="8448.28" y="223.46" width="32" height="32"/>
+  <object id="1532" type="pinchos" gid="8" x="8481.7" y="223.46" width="32" height="32"/>
+  <object id="1533" type="pinchos" gid="8" x="8511.03" y="223.735" width="32" height="32"/>
+  <object id="1534" type="pinchos" gid="8" x="8543.28" y="223.735" width="32" height="32"/>
+  <object id="1535" type="pinchos" gid="8" x="8574.45" y="223.402" width="32" height="32"/>
+  <object id="1536" type="pinchos" gid="8" x="8607.28" y="223.485" width="32" height="32"/>
+  <object id="1537" type="pinchos" gid="8" x="8640.7" y="223.485" width="32" height="32"/>
+  <object id="1538" type="pinchos" gid="8" x="8670.95" y="223.61" width="32" height="32"/>
+  <object id="1539" type="pinchos" gid="8" x="8703.2" y="223.61" width="32" height="32"/>
+  <object id="1540" type="pinchos" gid="8" x="8734.52" y="223.519" width="32" height="32"/>
+  <object id="1541" type="pinchos" gid="8" x="8767.2" y="223.36" width="32" height="32"/>
+  <object id="1542" type="pinchos" gid="8" x="8800.61" y="223.36" width="32" height="32"/>
+  <object id="1543" type="pinchos" gid="8" x="8831.38" y="223.44" width="32" height="32"/>
+  <object id="1544" type="pinchos" gid="8" x="8863.63" y="223.44" width="32" height="32"/>
+  <object id="1545" type="pinchos" gid="8" x="8894.77" y="223.53" width="32" height="32"/>
+  <object id="1546" type="pinchos" gid="8" x="8927.63" y="223.553" width="32" height="32"/>
+  <object id="1547" type="pinchos" gid="8" x="8961.05" y="223.735" width="32" height="32"/>
+  <object id="1548" type="pinchos" gid="8" x="8990.93" y="223.69" width="32" height="32"/>
+  <object id="1549" type="pinchos" gid="8" x="9022.93" y="223.44" width="32" height="32"/>
+  <object id="1550" type="pinchos" gid="8" x="9054.87" y="223.474" width="32" height="32"/>
+  <object id="1551" type="pinchos" gid="8" x="9087.55" y="223.315" width="32" height="32"/>
+  <object id="1552" type="pinchos" gid="8" x="9120.22" y="223.815" width="32" height="32"/>
+  <object id="1553" type="pinchos" gid="8" x="9150.78" y="223.593" width="32" height="32"/>
+  <object id="1554" type="pinchos" gid="8" x="9183.15" y="223.343" width="32" height="32"/>
+  <object id="1555" type="pinchos" gid="8" x="9214.32" y="223.885" width="32" height="32"/>
+  <object id="1556" type="pinchos" gid="8" x="9246.72" y="223.905" width="32" height="32"/>
+  <object id="1557" type="pinchos" gid="8" x="9280.13" y="223.905" width="32" height="32"/>
+  <object id="1558" type="pinchos" gid="8" x="9310.38" y="224.03" width="32" height="32"/>
+  <object id="1559" type="pinchos" gid="8" x="9342.63" y="224.03" width="32" height="32"/>
+  <object id="1560" type="pinchos" gid="8" x="9373.95" y="223.939" width="32" height="32"/>
+  <object id="1561" type="pinchos" gid="8" x="9406.63" y="223.78" width="32" height="32"/>
+  <object id="1562" type="pinchos" gid="8" x="9440.05" y="223.78" width="32" height="32"/>
+  <object id="1563" type="pinchos" gid="8" x="9470.82" y="223.86" width="32" height="32"/>
+  <object id="1564" type="pinchos" gid="8" x="9503.07" y="223.86" width="32" height="32"/>
+  <object id="1565" type="pinchos" gid="8" x="9534.2" y="223.769" width="32" height="32"/>
+  <object id="1566" type="pinchos" gid="8" x="9567.07" y="223.61" width="32" height="32"/>
+  <object id="1567" type="pinchos" gid="8" x="9600.48" y="223.61" width="32" height="32"/>
+  <object id="1568" type="pinchos" gid="8" x="9630.73" y="223.735" width="32" height="32"/>
+  <object id="1569" type="pinchos" gid="8" x="9662.98" y="223.735" width="32" height="32"/>
+  <object id="1570" type="pinchos" gid="8" x="9694.3" y="223.644" width="32" height="32"/>
+  <object id="1571" type="pinchos" gid="8" x="9726.98" y="223.485" width="32" height="32"/>
+  <object id="1572" type="pinchos" gid="8" x="9760.4" y="223.485" width="32" height="32"/>
+  <object id="1573" type="pinchos" gid="8" x="9792.56" y="223.771" width="32" height="32"/>
+  <object id="1574" type="pinchos" gid="8" x="9824.81" y="223.771" width="32" height="32"/>
+  <object id="1575" type="pinchos" gid="8" x="9855.98" y="223.438" width="32" height="32"/>
+  <object id="1576" type="pinchos" gid="8" x="9888.81" y="223.521" width="32" height="32"/>
+  <object id="1577" type="pinchos" gid="8" x="9922.23" y="223.521" width="32" height="32"/>
+  <object id="1578" type="pinchos" gid="8" x="9952.48" y="223.646" width="32" height="32"/>
+  <object id="1579" type="pinchos" gid="8" x="9984.73" y="223.646" width="32" height="32"/>
+  <object id="1580" type="pinchos" gid="8" x="10016" y="223.555" width="32" height="32"/>
+  <object id="1581" type="pinchos" gid="8" x="10048.7" y="223.396" width="32" height="32"/>
+  <object id="1582" type="pinchos" gid="8" x="10082.1" y="223.396" width="32" height="32"/>
+  <object id="1583" type="pinchos" gid="8" x="10112.9" y="223.476" width="32" height="32"/>
+  <object id="1584" type="pinchos" gid="8" x="10145.2" y="223.476" width="32" height="32"/>
+  <object id="1585" type="pinchos" gid="8" x="10176.3" y="223.566" width="32" height="32"/>
+  <object id="1586" type="pinchos" gid="8" x="10209.2" y="223.589" width="32" height="32"/>
+  <object id="1587" type="pinchos" gid="8" x="10242.6" y="223.771" width="32" height="32"/>
+  <object id="1588" type="pinchos" gid="8" x="10272.4" y="223.726" width="32" height="32"/>
+  <object id="1589" type="pinchos" gid="8" x="10304.4" y="223.476" width="32" height="32"/>
+  <object id="1590" type="pinchos" gid="8" x="10336.4" y="223.51" width="32" height="32"/>
+  <object id="1591" type="pinchos" gid="8" x="10369.1" y="223.351" width="32" height="32"/>
+  <object id="1592" type="pinchos" gid="8" x="10401.7" y="223.851" width="32" height="32"/>
+  <object id="1593" type="pinchos" gid="8" x="10432.3" y="223.629" width="32" height="32"/>
+  <object id="1594" type="pinchos" gid="8" x="10464.7" y="223.379" width="32" height="32"/>
+  <object id="1595" type="pinchos" gid="8" x="10495.8" y="223.921" width="32" height="32"/>
+  <object id="1596" type="pinchos" gid="8" x="10528.2" y="223.941" width="32" height="32"/>
+  <object id="1597" type="pinchos" gid="8" x="10561.7" y="223.941" width="32" height="32"/>
+  <object id="1598" type="pinchos" gid="8" x="10591.9" y="224.066" width="32" height="32"/>
+  <object id="1599" type="pinchos" gid="8" x="10624.2" y="224.066" width="32" height="32"/>
+  <object id="1600" type="pinchos" gid="8" x="10655.5" y="223.975" width="32" height="32"/>
+  <object id="1601" type="pinchos" gid="8" x="10688.2" y="223.816" width="32" height="32"/>
+  <object id="1602" type="pinchos" gid="8" x="10721.6" y="223.816" width="32" height="32"/>
+  <object id="1603" type="pinchos" gid="8" x="10752.3" y="223.896" width="32" height="32"/>
+  <object id="1604" type="pinchos" gid="8" x="10784.6" y="223.896" width="32" height="32"/>
+  <object id="1605" type="pinchos" gid="8" x="10815.7" y="223.805" width="32" height="32"/>
+  <object id="1606" type="pinchos" gid="8" x="10848.6" y="223.646" width="32" height="32"/>
+  <object id="1607" type="pinchos" gid="8" x="10882" y="223.646" width="32" height="32"/>
+  <object id="1608" type="pinchos" gid="8" x="10912.3" y="223.771" width="32" height="32"/>
+  <object id="1609" type="pinchos" gid="8" x="10944.5" y="223.771" width="32" height="32"/>
+  <object id="1610" type="pinchos" gid="8" x="10975.8" y="223.68" width="32" height="32"/>
+  <object id="1611" type="pinchos" gid="8" x="11008.5" y="223.521" width="32" height="32"/>
+  <object id="1612" type="pinchos" gid="8" x="11041.9" y="223.521" width="32" height="32"/>
+  <object id="1613" type="pinchos" gid="8" x="11071.3" y="223.796" width="32" height="32"/>
+  <object id="1614" type="pinchos" gid="8" x="11103.5" y="223.796" width="32" height="32"/>
+  <object id="1615" type="pinchos" gid="8" x="11134.7" y="223.463" width="32" height="32"/>
+  <object id="1616" type="pinchos" gid="8" x="11167.5" y="223.546" width="32" height="32"/>
+  <object id="1617" type="pinchos" gid="8" x="11200.9" y="223.546" width="32" height="32"/>
+  <object id="1618" type="pinchos" gid="8" x="11231.2" y="223.671" width="32" height="32"/>
+  <object id="1619" type="pinchos" gid="8" x="11263.4" y="223.671" width="32" height="32"/>
+  <object id="1620" type="pinchos" gid="8" x="11294.7" y="223.58" width="32" height="32"/>
+  <object id="1621" type="pinchos" gid="8" x="11327.4" y="223.421" width="32" height="32"/>
+  <object id="1622" type="pinchos" gid="8" x="11360.8" y="223.421" width="32" height="32"/>
+  <object id="1623" type="pinchos" gid="8" x="11391.6" y="223.501" width="32" height="32"/>
+  <object id="1624" type="pinchos" gid="8" x="11423.9" y="223.501" width="32" height="32"/>
+  <object id="1625" type="pinchos" gid="8" x="11455" y="223.591" width="32" height="32"/>
+  <object id="1626" type="pinchos" gid="8" x="11487.9" y="223.614" width="32" height="32"/>
+  <object id="1627" type="pinchos" gid="8" x="11521.3" y="223.796" width="32" height="32"/>
+  <object id="1628" type="pinchos" gid="8" x="11551.2" y="223.751" width="32" height="32"/>
+  <object id="1629" type="pinchos" gid="8" x="11583.2" y="223.501" width="32" height="32"/>
+  <object id="1630" type="pinchos" gid="8" x="11615.1" y="223.535" width="32" height="32"/>
+  <object id="1631" type="pinchos" gid="8" x="11647.8" y="223.376" width="32" height="32"/>
+  <object id="1632" type="pinchos" gid="8" x="11680.4" y="223.876" width="32" height="32"/>
+  <object id="1633" type="pinchos" gid="8" x="11711" y="223.654" width="32" height="32"/>
+  <object id="1634" type="pinchos" gid="8" x="11743.4" y="223.404" width="32" height="32"/>
+  <object id="1635" type="pinchos" gid="8" x="11774.5" y="223.946" width="32" height="32"/>
+  <object id="1636" type="pinchos" gid="8" x="11806.9" y="223.966" width="32" height="32"/>
+  <object id="1637" type="pinchos" gid="8" x="11840.4" y="223.966" width="32" height="32"/>
+  <object id="1638" type="pinchos" gid="8" x="11870.6" y="224.091" width="32" height="32"/>
+  <object id="1639" type="pinchos" gid="8" x="11902.9" y="224.091" width="32" height="32"/>
+  <object id="1640" type="pinchos" gid="8" x="11934.2" y="224" width="32" height="32"/>
+  <object id="1641" type="pinchos" gid="8" x="11966.9" y="223.841" width="32" height="32"/>
+  <object id="1642" type="pinchos" gid="8" x="12000.3" y="223.841" width="32" height="32"/>
+  <object id="1643" type="pinchos" gid="8" x="12031" y="223.921" width="32" height="32"/>
+  <object id="1644" type="pinchos" gid="8" x="12063.3" y="223.921" width="32" height="32"/>
+  <object id="1645" type="pinchos" gid="8" x="12094.4" y="223.83" width="32" height="32"/>
+  <object id="1646" type="pinchos" gid="8" x="12127.3" y="223.671" width="32" height="32"/>
+  <object id="1647" type="pinchos" gid="8" x="12160.7" y="223.671" width="32" height="32"/>
+  <object id="1648" type="pinchos" gid="8" x="12191" y="223.796" width="32" height="32"/>
+  <object id="1649" type="pinchos" gid="8" x="12223.2" y="223.796" width="32" height="32"/>
+  <object id="1650" type="pinchos" gid="8" x="12254.5" y="223.705" width="32" height="32"/>
+  <object id="1651" type="pinchos" gid="8" x="12287.2" y="223.546" width="32" height="32"/>
+  <object id="1652" type="pinchos" gid="8" x="12320.6" y="223.546" width="32" height="32"/>
+  <object id="1653" type="pinchos" gid="8" x="12352.1" y="223.45" width="32" height="32"/>
+  <object id="1654" type="pinchos" gid="8" x="12384.3" y="223.45" width="32" height="32"/>
+  <object id="1655" type="pinchos" gid="8" x="12415.5" y="223.117" width="32" height="32"/>
+  <object id="1656" type="pinchos" gid="8" x="12448.3" y="223.2" width="32" height="32"/>
+  <object id="1657" type="pinchos" gid="8" x="12481.8" y="223.2" width="32" height="32"/>
+  <object id="1658" type="pinchos" gid="8" x="12512" y="223.325" width="32" height="32"/>
+  <object id="1659" type="pinchos" gid="8" x="12544.3" y="223.325" width="32" height="32"/>
+  <object id="1660" type="pinchos" gid="8" x="12575.6" y="223.234" width="32" height="32"/>
+  <object id="1661" type="pinchos" gid="8" x="12608.3" y="223.075" width="32" height="32"/>
+  <object id="1662" type="pinchos" gid="8" x="12641.7" y="223.075" width="32" height="32"/>
+  <object id="1663" type="pinchos" gid="8" x="12672.4" y="223.155" width="32" height="32"/>
+  <object id="1664" type="pinchos" gid="8" x="12704.7" y="223.155" width="32" height="32"/>
+  <object id="1665" type="pinchos" gid="8" x="12735.8" y="223.245" width="32" height="32"/>
+  <object id="1666" type="pinchos" gid="8" x="12768" y="223.916" width="32" height="32"/>
+  <object id="1667" type="pinchos" gid="8" x="0.212796" y="223.75" width="32" height="32"/>
+  <object id="1668" type="pinchos" gid="8" x="32.4628" y="223.75" width="32" height="32"/>
+  <object id="1669" type="pinchos" gid="8" x="63.6298" y="223.417" width="32" height="32"/>
+  <object id="1670" type="pinchos" gid="8" x="96.4628" y="223.5" width="32" height="32"/>
+  <object id="1671" type="pinchos" gid="8" x="129.88" y="223.5" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="2" name="Objetos">
+  <object id="1290" type="player" gid="1" x="78.6667" y="94.6667" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="6" name="PlataformaDeSalto"/>
+</map>
