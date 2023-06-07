@@ -26,7 +26,7 @@
   </object>
   <object id="8" type="puerta" gid="3" x="65" y="256" width="32" height="32">
    <properties>
-    <property name="SiguienteNivel" value="nivel10.tmx"/>
+    <property name="SiguienteNivel" value="nivel6.tmx"/>
    </properties>
   </object>
  </objectgroup>

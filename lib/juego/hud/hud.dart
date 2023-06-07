@@ -18,10 +18,10 @@ class Hud extends PositionComponent with HasGameRef<miJuego> {
   @override
   Future<void>? onLoad() async {
     points = TextComponent(
-      text: "0",
-      position: Vector2(80, 10),
+      text: '${gameRef.monedasCogidas}',
+      position: Vector2(61, 8),
       anchor: Anchor.topLeft,
-      scale: Vector2.all(1.8),
+      scale: Vector2.all(1.5),
     );
     add(points);
 
@@ -31,7 +31,7 @@ class Hud extends PositionComponent with HasGameRef<miJuego> {
       anchor: Anchor.topLeft,
       srcSize: Vector2.all(32),
       position: Vector2(15, 9),
-      scale: Vector2.all(1.6),
+      scale: Vector2.all(1.2),
     );
     await add(coinsHead);
 
@@ -49,15 +49,15 @@ class Hud extends PositionComponent with HasGameRef<miJuego> {
       size: Vector2.all(32),
       anchor: Anchor.topCenter,
       position: Vector2(game.size.x / 2, 15),
-      scale: Vector2.all(2.1),
+      scale: Vector2.all(1.5),
     );
     await add(pauseButton);
 
     blockLives = TextComponent(
-      text: gameRef.blockLives.toString(),
+      text: '${gameRef.blockLives}',
       anchor: Anchor.topRight,
-      position: Vector2(gameRef.size.x - 50, 10),
-      scale: Vector2.all(1.8),
+      position: Vector2(gameRef.size.x - 80, 10),
+      scale: Vector2.all(1.5),
     );
     await add(blockLives);
 
@@ -66,8 +66,8 @@ class Hud extends PositionComponent with HasGameRef<miJuego> {
       srcPosition: Vector2(0, 0),
       anchor: Anchor.topRight,
       srcSize: Vector2.all(32),
-      position: Vector2(blockLives.position.x - blockLives.size.x - 30, 10),
-      scale: Vector2.all(1.6),
+      position: Vector2(blockLives.position.x - blockLives.size.x - 20, 10),
+      scale: Vector2.all(1.2),
     );
     await add(blockHead);
 

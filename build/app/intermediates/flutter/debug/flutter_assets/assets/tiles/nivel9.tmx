@@ -8,7 +8,7 @@
 7,7,7,6,6,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
 7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,
-7,7,7,7,7,7,7,7,6,6,6,6,7,7,7,7,7,7,7,7,
+7,7,7,7,9,7,7,7,6,6,6,6,7,7,9,7,7,7,7,7,
 7,7,7,7,6,6,7,7,7,7,7,7,7,7,6,6,7,7,7,7,
 7,7,7,7,6,6,7,7,7,7,7,7,7,7,6,6,7,7,7,7,
 7,7,7,7,7,7,7,7,6,6,6,6,7,7,7,7,7,7,7,7,
@@ -21,8 +21,16 @@
   <object id="1" gid="4" x="306.667" y="110.667" width="32" height="32"/>
   <object id="2" gid="4" x="580" y="256" width="32" height="32"/>
   <object id="3" gid="4" x="32" y="258.667" width="32" height="32"/>
-  <object id="5" gid="3" x="114.125" y="63.875" width="32" height="32"/>
-  <object id="6" gid="3" x="466.94" y="63.6969" width="32" height="32"/>
+  <object id="5" gid="3" x="114.125" y="63.875" width="32" height="32">
+   <properties>
+    <property name="SiguienteNivel" value="nivel10.tmx"/>
+   </properties>
+  </object>
+  <object id="6" gid="3" x="466.94" y="63.6969" width="32" height="32">
+   <properties>
+    <property name="SiguienteNivel" value="nivel10.tmx"/>
+   </properties>
+  </object>
   <object id="8" type="enemigo1" gid="2" x="611" y="320" width="32" height="32"/>
   <object id="9" type="enemigo1" gid="2" x="0" y="321" width="32" height="32"/>
   <object id="19" gid="1" x="304" y="253.333" width="32" height="32"/>

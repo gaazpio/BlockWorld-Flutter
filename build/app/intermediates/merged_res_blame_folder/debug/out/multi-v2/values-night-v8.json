@@ -4,7 +4,7 @@
             "outputFile": "com.example.tfggzp.app-mergeDebugResources-15:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\David\\Desktop\\PROYECTOS\\tfggzp\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\David\\Desktop\\PROYECTOS\\tfggzpmobile\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
