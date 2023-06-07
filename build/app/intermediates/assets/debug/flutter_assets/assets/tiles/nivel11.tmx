@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="55">
+ <tileset firstgid="1" source="Spritesheet.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="40" height="20">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,6,6,6,7,7,7,7,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,6,6,6,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,6,6,6,6,6,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,6,6,6,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,
+7,7,7,7,7,7,7,6,6,6,7,7,7,6,6,6,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,
+6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,6,7,7,7,6,7,7,7,6,7,7,7,6,7,7,7,6,
+6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,6,7,7,7,6,7,7,7,6,7,7,7,6,7,7,7,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <objectgroup id="2" name="Objetos">
+  <object id="1" type="enemigo2" gid="5" x="416" y="96" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="48"/>
+   </properties>
+  </object>
+  <object id="2" type="enemigo2" gid="5" x="320" y="288" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="49"/>
+   </properties>
+  </object>
+  <object id="3" type="puerta" gid="3" x="687" y="576" width="32" height="32"/>
+  <object id="5" gid="1" x="32" y="481" width="32" height="32"/>
+  <object id="6" type="enemigo1" gid="2" x="1215.09" y="576" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="53"/>
+   </properties>
+  </object>
+  <object id="7" type="enemigo1" gid="2" x="1087.21" y="575.758" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="52"/>
+   </properties>
+  </object>
+  <object id="8" type="enemigo1" gid="2" x="959.152" y="576.061" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="51"/>
+   </properties>
+  </object>
+  <object id="9" type="enemigo1" gid="2" x="831.583" y="576.167" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="50"/>
+   </properties>
+  </object>
+  <object id="10" type="coin" gid="4" x="1150" y="256" width="32" height="32"/>
+  <object id="11" type="coin" gid="4" x="294" y="98" width="32" height="32"/>
+  <object id="12" type="coin" gid="4" x="796" y="316" width="32" height="32"/>
+  <object id="13" gid="5" x="1023.33" y="384" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="54"/>
+   </properties>
+  </object>
+  <object id="48" x="361.5" y="73.3333">
+   <point/>
+  </object>
+  <object id="49" x="297.5" y="272.5">
+   <point/>
+  </object>
+  <object id="50" x="781.333" y="532.667">
+   <point/>
+  </object>
+  <object id="51" x="906" y="532">
+   <point/>
+  </object>
+  <object id="52" x="1034" y="529.333">
+   <point/>
+  </object>
+  <object id="53" x="1163.33" y="529.333">
+   <point/>
+  </object>
+  <object id="54" x="686.667" y="341.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Plataforma">
+  <object id="14" x="0.583333" y="575.833" width="1279.21" height="32.1232"/>
+  <object id="15" x="0.00555556" y="511.989" width="128.005" height="63.2611"/>
+  <object id="16" x="223.978" y="448.016" width="96.2717" height="31.9616"/>
+  <object id="17" x="352.379" y="95.898" width="96.2717" height="31.9616"/>
+  <object id="18" x="1184.23" y="384.383" width="95.7262" height="31.9616"/>
+  <object id="19" x="159.864" y="128.019" width="96.2717" height="31.9616"/>
+  <object id="20" x="32" y="191.5" width="64.5" height="33"/>
+  <object id="21" x="286.75" y="288" width="64.5" height="33"/>
+  <object id="22" x="127.75" y="254.5" width="64.5" height="33"/>
+  <object id="23" x="415.75" y="320.25" width="64.5" height="31.875"/>
+  <object id="24" x="415.864" y="448.269" width="96.2717" height="31.9616"/>
+  <object id="25" x="800.137" y="128.201" width="95.7262" height="31.9616"/>
+  <object id="26" x="607.972" y="0.0305556" width="64.059" height="31.9694"/>
+  <object id="27" x="607.909" y="96" width="64.0909" height="480"/>
+  <object id="28" x="575.636" y="96.1818" width="32.1818" height="31.6364"/>
+  <object id="29" x="672" y="95.8182" width="32.3636" height="32.5455"/>
+  <object id="30" x="927.333" y="191.333" width="32.3333" height="64.6667"/>
+  <object id="31" x="927.333" y="256" width="161" height="32"/>
+  <object id="32" x="672" y="383.667" width="450.333" height="32.3333"/>
+  <object id="33" x="1055.75" y="287.75" width="32.5" height="95.75"/>
+  <object id="34" x="575.909" y="384.091" width="31.9091" height="31.8182"/>
+  <object id="35" x="1247.86" y="416.909" width="32.1333" height="159"/>
+  <object id="37" x="1120" y="512" width="32.1818" height="64"/>
+  <object id="38" x="991.636" y="512.182" width="32.5455" height="63.8182"/>
+  <object id="39" x="863.636" y="511.818" width="32.3636" height="64"/>
+  <object id="40" x="735.818" y="512.364" width="32.3636" height="63.2727"/>
+ </objectgroup>
+</map>

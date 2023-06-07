@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="38">
+ <tileset firstgid="1" source="Spritesheet.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="30" height="20">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,9,7,7,7,7,7,7,9,7,7,7,7,7,7,7,7,7,7,7,7,7,9,9,7,7,7,
+7,7,6,6,6,6,7,7,7,7,6,6,6,7,7,7,7,6,6,6,7,7,7,7,6,6,6,6,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,9,7,7,7,6,6,7,7,7,9,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,6,7,7,6,6,6,6,7,7,6,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,6,6,6,6,7,7,6,6,6,6,6,6,6,6,6,6,7,7,6,6,6,6,7,7,7,7,
+9,9,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,
+7,7,6,7,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,6,7,7,
+7,7,7,7,7,6,7,7,7,9,7,7,7,7,7,7,7,7,7,7,9,9,7,7,6,7,7,7,7,7,
+7,7,7,7,7,7,7,7,6,6,6,7,7,7,7,7,7,7,7,6,6,6,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <objectgroup id="2" name="Objetos">
+  <object id="1" type="player" gid="1" x="463.375" y="480.375" width="32" height="32"/>
+  <object id="2" type="coin" gid="4" x="887.333" y="220.667" width="32" height="32"/>
+  <object id="3" type="coin" gid="4" x="161.333" y="389.333" width="32" height="32"/>
+  <object id="5" type="coin" gid="4" x="578" y="70" width="32" height="32"/>
+  <object id="7" type="puerta" gid="3" x="465" y="159.5" width="32" height="32">
+   <properties>
+    <property name="SiguienteNivel" value="nivel11.tmx"/>
+   </properties>
+  </object>
+  <object id="8" type="enemigo2" gid="5" x="924.5" y="575.5" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="12"/>
+   </properties>
+  </object>
+  <object id="9" type="enemigo2" gid="5" x="7" y="576" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="13"/>
+   </properties>
+  </object>
+  <object id="10" type="enemigo1" gid="2" x="798.25" y="255.625" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="15"/>
+   </properties>
+  </object>
+  <object id="11" type="enemigo1" gid="2" x="128.818" y="255.727" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="14"/>
+   </properties>
+  </object>
+  <object id="12" x="572" y="555">
+   <point/>
+  </object>
+  <object id="13" x="393" y="554">
+   <point/>
+  </object>
+  <object id="14" x="247.167" y="223.25">
+   <point/>
+  </object>
+  <object id="15" x="707.5" y="216.5">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Plataforma">
+  <object id="16" x="767.333" y="96.6667" width="129" height="31"/>
+  <object id="17" x="64" y="96.6667" width="128.667" height="30.6667"/>
+  <object id="18" x="319.667" y="96.6667" width="96.6667" height="31.6667"/>
+  <object id="19" x="543.333" y="96.3333" width="96.6667" height="32.6667"/>
+  <object id="20" x="447" y="160" width="64.5" height="31.5"/>
+  <object id="21" x="416" y="192.5" width="129" height="32.5"/>
+  <object id="22" x="318.667" y="192.667" width="33.3333" height="64"/>
+  <object id="23" x="609.333" y="193.333" width="31.3333" height="63.3333"/>
+  <object id="24" x="318" y="256.667" width="322.667" height="32"/>
+  <object id="25" x="128.667" y="256.333" width="127.667" height="31.3333"/>
+  <object id="26" x="705" y="256" width="127" height="32.5"/>
+  <object id="27" x="896" y="321.333" width="62.6667" height="30.6667"/>
+  <object id="28" x="0" y="319.5" width="64.5" height="33.5"/>
+  <object id="29" x="-0.666667" y="575.333" width="960" height="64.6667"/>
+  <object id="30" x="447.5" y="545" width="64.5" height="30.5"/>
+  <object id="31" x="415.5" y="512.5" width="129" height="31"/>
+  <object id="32" x="255.667" y="481" width="96.3333" height="30.6667"/>
+  <object id="33" x="608" y="480.667" width="96.6667" height="30.6667"/>
+  <object id="34" x="767.667" y="416.333" width="32.3333" height="64.6667"/>
+  <object id="35" x="863.667" y="384" width="32.6667" height="63.6667"/>
+  <object id="36" x="63.5" y="383.75" width="32" height="64"/>
+  <object id="37" x="159.667" y="416" width="32" height="63.6667"/>
+ </objectgroup>
+</map>

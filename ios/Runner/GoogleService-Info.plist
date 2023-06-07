@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>788743725688-mf81gigd2eskndhdd1hdua4qetb0emqs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.788743725688-mf81gigd2eskndhdd1hdua4qetb0emqs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvcI9gK1SeFFUnjqZ3Yth0AlZ--Xs5uxQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>788743725688</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.tfggzp</string>
+	<key>PROJECT_ID</key>
+	<string>tfggzp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tfggzp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:788743725688:ios:19450246912936dc11438d</string>
+	<key>DATABASE_URL</key>
+	<string>https://tfggzp-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

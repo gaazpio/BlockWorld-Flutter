@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "788743725688",
+    "firebase_url": "https://tfggzp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tfggzp",
+    "storage_bucket": "tfggzp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788743725688:android:9f57a7bcb4f7321211438d",
+        "android_client_info": {
+          "package_name": "com.example.tfggzp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788743725688-1sspvp30lnl0j07ufj1l44g60b00br0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMMsPsCjopVrg9-nlHI_x1OUalD_GuBzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788743725688-1sspvp30lnl0j07ufj1l44g60b00br0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
