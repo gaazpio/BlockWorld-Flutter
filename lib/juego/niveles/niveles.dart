@@ -17,7 +17,7 @@ import 'package:tfggzp/juego/jugadores/puerta.dart';
 import '../juego.dart';
 import '../jugadores/coinFinal.dart';
 import '../jugadores/jugadorMain.dart';
-import '../overlays/nivelExtra/nivelExtraGame/nivelExtraIniciado.dart';
+import '../jugadores/plataformas/PlataformaDeSaltoJuegoNormal.dart';
 
 class Niveles extends Component with HasGameRef<miJuego>, ParentIsA<juegoIniciado> {
   final String nivel;
@@ -53,20 +53,28 @@ class Niveles extends Component with HasGameRef<miJuego>, ParentIsA<juegoIniciad
       add(plataforma);
     }
 
-    /* final plataformaParaSaltar = nivel.getLayer<ObjectGroup>('Salto');
+  final plataformaParaSaltar = nivel.getLayer<ObjectGroup>('ParaSaltar');
     for (final plataformaSalto in plataformaParaSaltar!.objects) {
-      final plataformaS = PlataformaSalto(
+      final plataformaS = PlataformaSaltoNormal(
           position: Vector2(plataformaSalto.x, plataformaSalto.y),
           size: Vector2(plataformaSalto.width, plataformaSalto.height),
       );
       add(plataformaS);
-    }*/
+    }
 
     final objetos = nivel.getLayer<ObjectGroup>('Objetos');
     for (final objetosMarcados in objetos!.objects) {
-      final posicion = Vector2(
-          objetosMarcados.x, objetosMarcados.y - objetosMarcados.height);
+      final plataformaS = PlataformaSaltoNormal(
+        position: Vector2(objetosMarcados.x, objetosMarcados.y),
+        size: Vector2(objetosMarcados.width, objetosMarcados.height),
+      );
+      add(plataformaS);
+
+      final posicion = Vector2(objetosMarcados.x, objetosMarcados.y - objetosMarcados.height);
       final anchura = Vector2(objetosMarcados.width, objetosMarcados.height);
+
+
+
       switch (objetosMarcados.type) {
         case 'player':
           block = jugadorMain(
@@ -143,8 +151,6 @@ class Niveles extends Component with HasGameRef<miJuego>, ParentIsA<juegoIniciad
           );
           add(moneda);
           break;
-
-
       }
     }
   }

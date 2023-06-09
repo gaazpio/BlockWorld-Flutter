@@ -20,7 +20,7 @@ class nivelExtraIniciado extends World with HasGameRef<miJuego> {
   @override
   Future<void> onLoad() async {
     // TODO: implement onLoad
-    AudioGame.startBGM("bgm.m4a");
+    AudioGame.startBGM("muiscaNivelExtra.m4a");
 
     cargarNivel('nivelExtra.tmx');
 
@@ -48,6 +48,16 @@ class nivelExtraIniciado extends World with HasGameRef<miJuego> {
     nivelActual?.removeFromParent();
     nivelActual = NivelesExtraGame(nivel);
     add(nivelActual!);
+  }
+  @override
+  void update(double dt) {
+
+   if (gameRef.blockLivesExtra == 0) {
+      gameRef.overlays.add("/GameOverExtra");
+      gameRef.pauseEngine();
+      AudioGame.pararSonidoFondo();
+    }
+    super.update(dt);
   }
 
 }

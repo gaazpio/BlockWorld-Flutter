@@ -32,7 +32,6 @@ class PlataformaSalto extends PositionComponent with CollisionCallbacks, TapCall
   @override
   Future<void>? onLoad() {
     add(RectangleHitbox()..collisionType = CollisionType.passive);
-    //  return super.onLoad();
   }
 
   @override

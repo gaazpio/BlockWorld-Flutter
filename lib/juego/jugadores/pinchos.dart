@@ -33,7 +33,6 @@ class pinchos extends SpriteComponent with CollisionCallbacks,HasGameRef<miJuego
   @override
   Future<void>? onLoad() {
     add(CircleHitbox()..collisionType=CollisionType.passive);
-   // return super.onLoad();
   }
 
 

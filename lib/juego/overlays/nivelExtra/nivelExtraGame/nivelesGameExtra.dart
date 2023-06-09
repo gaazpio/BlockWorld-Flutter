@@ -10,12 +10,7 @@ import 'package:tfggzp/juego/overlays/nivelExtra/nivelExtraGame/nivelExtraInicia
 import 'package:tiled/tiled.dart';
 import 'package:flame/image_composition.dart';
 import 'package:flame_tiled/flame_tiled.dart';
-import 'package:tfggzp/juego/jugadores/enemigo1.dart';
-import 'package:tfggzp/juego/jugadores/enemigo2.dart';
-import 'package:tfggzp/juego/jugadores/monedas.dart';
 import 'package:tfggzp/juego/jugadores/plataformas/plataforma.dart';
-import 'package:tfggzp/juego/jugadores/puerta.dart';
-
 import '../../../juego.dart';
 import '../../../jugadores/coinFinal.dart';
 import '../../../jugadores/jugadorMain.dart';

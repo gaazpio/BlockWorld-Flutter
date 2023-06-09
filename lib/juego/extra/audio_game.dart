@@ -16,6 +16,8 @@ class AudioGame {
       "door.m4a",
       "salto.m4a",
       "coin.m4a",
+      "muiscaNivelExtra.m4a",
+
     ]);
   }
 

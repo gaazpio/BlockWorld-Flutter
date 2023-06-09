@@ -1,13 +1,11 @@
-import 'dart:ui';
 
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flame/input.dart';
 import 'package:tfggzp/juego/extra/audio_game.dart';
-
 import '../juego.dart';
 
-class Hud extends PositionComponent with HasGameRef<miJuego> {
+class Hud extends PositionComponent with HasGameRef<miJuego>{
   Hud({super.children, super.priority}) {
     // positionType = PositionType.viewport;
   }
@@ -37,6 +35,7 @@ class Hud extends PositionComponent with HasGameRef<miJuego> {
 
     final pauseButton = SpriteButtonComponent(
       onPressed: () {
+       // gameRef.block.estoySaltando=true;
         gameRef.overlays.add("/MenuPause");
         gameRef.pauseEngine();
         AudioGame.pausarSonidoFondo();
@@ -49,7 +48,7 @@ class Hud extends PositionComponent with HasGameRef<miJuego> {
       size: Vector2.all(32),
       anchor: Anchor.topCenter,
       position: Vector2(game.size.x / 2, 15),
-      scale: Vector2.all(1.5),
+      scale: Vector2.all(1.5),priority: 1,
     );
     await add(pauseButton);
 
@@ -108,32 +107,10 @@ class HudGameExtra extends PositionComponent with HasGameRef<miJuego> {
       scale: Vector2.all(1.5),
     );
     await add(pauseButton);
-
-    blockLivesExtra = TextComponent(
-      text: '${gameRef.blockLivesExtra}',
-      anchor: Anchor.topRight,
-      position: Vector2(gameRef.size.x - 80, 10),
-      scale: Vector2.all(1.5),
-    );
-    await add(blockLivesExtra);
-
-    final blockHead = SpriteComponent.fromImage(
-      gameRef.imagenPersonajes,
-      srcPosition: Vector2(0, 0),
-      anchor: Anchor.topRight,
-      srcSize: Vector2.all(32),
-      position: Vector2(blockLivesExtra.position.x - blockLivesExtra.size.x - 20, 10),
-      scale: Vector2.all(1.2),
-    );
-    await add(blockHead);
-
-    // return super.onLoad();
   }
 
   @override
   void update(double dt) {
-    blockLivesExtra.text = '${gameRef.blockLivesExtra}';
-
     super.update(dt);
   }
 }

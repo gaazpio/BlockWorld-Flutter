@@ -46,7 +46,6 @@ class enemigo1 extends SpriteComponent with CollisionCallbacks, HasGameRef<miJue
 
   @override
   Future<void>? onLoad() {
-    //debugMode=true;
     add(CircleHitbox()
       ..collisionType = CollisionType.passive);
   }

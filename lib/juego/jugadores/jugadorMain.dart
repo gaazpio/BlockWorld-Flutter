@@ -10,7 +10,9 @@ import 'package:tfggzp/juego/jugadores/enemigo1.dart';
 import 'package:tfggzp/juego/jugadores/enemigo2.dart';
 import 'package:tfggzp/juego/jugadores/pinchos.dart';
 import 'package:tfggzp/juego/jugadores/plataformas/plataforma.dart';
+import 'package:tfggzp/juego/overlays/nivelExtra/nivelExtraGame/nivelExtraIniciado.dart';
 import '../juego.dart';
+import 'coinFinal.dart';
 
 
 class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<miJuego>, TapCallbacks{
@@ -18,8 +20,8 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<m
   final Vector2 velocidad= Vector2(0, 0);
   double velocidadHorizontal= 0;
   double moveSpeed= 150;
-  double velocidadSalto =460;
-  double saltoChetado=800;
+  double velocidadSalto =560;
+  double saltoChetado=900;
   double gravedad = 30;
   final Vector2 sizeBlock= Vector2.all(30);
 
@@ -124,9 +126,12 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<m
         gameRef.blockLives--;
         gameRef.blockLivesExtra--;
       }
+
     }
     super.onCollisionStart(intersectionPoints, other);
   }
+
+
   void hit(){
     add(
         OpacityEffect.fadeOut(EffectController(

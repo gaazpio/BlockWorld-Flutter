@@ -1,4 +1,4 @@
-#Wed Jun 07 19:06:22 CEST 2023
+#Fri Jun 09 12:30:48 CEST 2023
 base.0=C\:\\Users\\David\\Desktop\\PROYECTOS\\tfggzpmobile\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

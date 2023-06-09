@@ -26,14 +26,11 @@ class Plataforma extends PositionComponent with CollisionCallbacks, TapCallbacks
  
   @override
   Future<void>? onLoad() {
-    //debugMode= true;
     add(RectangleHitbox()..collisionType = CollisionType.passive);
-  //  return super.onLoad();
   }
 
   @override
   void onTapUp(TapUpEvent event) {
-    //parent.block.estoySaltando=true;
     print("estoy saltando");
     super.onTapUp(event);
   }

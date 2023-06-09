@@ -40,6 +40,9 @@ class CoinFinal extends SpriteComponent with CollisionCallbacks,HasGameRef<miJue
   void onCollision(Set<Vector2> intersectionPoints, PositionComponent other) {
     // TODO: implement onCollision
     if(other is jugadorMain){
+      gameRef.monedasFinales++;
+      add(RemoveEffect());
+      print(gameRef.monedasFinales.toString());
 
     }
     super.onCollision(intersectionPoints, other);
