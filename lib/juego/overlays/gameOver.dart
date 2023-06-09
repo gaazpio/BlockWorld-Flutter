@@ -31,12 +31,12 @@ class Gameover extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Has perdido ! ' ,
-                style: TextStyle(
-                  color: whiteTextColor,
-                  fontSize: 35,
+            'Eliminado' ,
+            style: TextStyle(
+              color: whiteTextColor,
+              fontSize: 40,
+            ),
                 ),
-              ),
               const SizedBox(height: 40),
               SizedBox(
                 width: 200,
