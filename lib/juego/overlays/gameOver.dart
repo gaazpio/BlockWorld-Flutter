@@ -112,7 +112,7 @@ class GameoverExtra extends StatelessWidget {
           height: 240,
           width: 300,
           decoration: const BoxDecoration(
-            color: Color.fromRGBO(141, 33, 33, 0.7019607843137254),
+            color: Color.fromRGBO(141, 33, 33, 1),
             borderRadius: const BorderRadius.all(
               Radius.circular(20),
             ),
@@ -120,13 +120,14 @@ class GameoverExtra extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Padding(padding: EdgeInsets.fromLTRB(0, 0, 0, 0),child:
               const Text(
-                'Has perdido ! ' ,
+                'Eliminado' ,
                 style: TextStyle(
                   color: whiteTextColor,
-                  fontSize: 35,
+                  fontSize: 40,
                 ),
-              ),
+              ), ),
               const SizedBox(height: 40),
               SizedBox(
                 width: 200,
@@ -151,7 +152,7 @@ class GameoverExtra extends StatelessWidget {
                 ),
               ),
 
-              Padding(padding: EdgeInsets.fromLTRB(0, 20, 0, 0),child:
+              Padding(padding: EdgeInsets.fromLTRB(0, 10, 0, 0),child:
               SizedBox(
                 width: 200,
                 height: 55,
