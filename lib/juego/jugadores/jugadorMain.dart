@@ -69,8 +69,6 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<m
   @override
   Future<void>? onLoad() {
     add(CircleHitbox());
-    // TODO: implement onLoad
-   // return super.onLoad();
   }
 
 

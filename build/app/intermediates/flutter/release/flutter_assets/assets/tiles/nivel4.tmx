@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="19">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="21">
  <tileset firstgid="1" source="Spritesheet.tsx"/>
  <layer id="1" name="Capa de patrones 1" width="20" height="12">
   <data encoding="csv">
@@ -56,5 +56,6 @@
     <property name="SiguienteNivel" value="nivel5.tmx"/>
    </properties>
   </object>
+  <object id="19" type="pinchos" gid="8" x="352" y="319.879" width="32" height="32"/>
  </objectgroup>
 </map>

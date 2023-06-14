@@ -14,7 +14,6 @@ import 'juego/overlays/settins.dart';
 class App extends StatelessWidget {
   final game = miJuego();
   final game2= juegoIniciado();
- // final niveles = Niveles("nivel");
 
   App({Key? key}) : super(key: key);
 
@@ -34,6 +33,7 @@ class App extends StatelessWidget {
           '/NivelExtraRegister': (_, game) => nivelExtraRegister(gameRef: game),
           '/MenuPause': (_, game) => pause_menu(gameRef: game),
           '/GameOverExtra': (_, game) => GameoverExtra(game: game),
+          "/GameWinExtra": (_, game) => GameWinExtra(game: game),
         },
         initialActiveOverlays: ['/MenuPrinci'],
       ),

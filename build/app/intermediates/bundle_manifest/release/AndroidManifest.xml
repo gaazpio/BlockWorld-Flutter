@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="esgazpioDavid.blockworld"
+    package="es.gazpioDavidBlockWordl3"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -114,7 +114,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="esgazpioDavid.blockworld.firebaseinitprovider"
+            android:authorities="es.gazpioDavidBlockWordl3.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />

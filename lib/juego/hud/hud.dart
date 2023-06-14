@@ -7,7 +7,6 @@ import '../juego.dart';
 
 class Hud extends PositionComponent with HasGameRef<miJuego>{
   Hud({super.children, super.priority}) {
-    // positionType = PositionType.viewport;
   }
 
   late TextComponent points;
@@ -54,8 +53,8 @@ class Hud extends PositionComponent with HasGameRef<miJuego>{
 
     blockLives = TextComponent(
       text: '${gameRef.blockLives}',
-      anchor: Anchor.topRight,
-      position: Vector2(gameRef.size.x - 80, 10),
+      position: Vector2(63, 53),
+      anchor: Anchor.topLeft,
       scale: Vector2.all(1.5),
     );
     await add(blockLives);
@@ -63,9 +62,9 @@ class Hud extends PositionComponent with HasGameRef<miJuego>{
     final blockHead = SpriteComponent.fromImage(
       gameRef.imagenPersonajes,
       srcPosition: Vector2(0, 0),
-      anchor: Anchor.topRight,
+      anchor: Anchor.topLeft,
       srcSize: Vector2.all(32),
-      position: Vector2(blockLives.position.x - blockLives.size.x - 20, 10),
+      position: Vector2(15, 55),
       scale: Vector2.all(1.2),
     );
     await add(blockHead);
@@ -84,7 +83,6 @@ class Hud extends PositionComponent with HasGameRef<miJuego>{
 
 class HudGameExtra extends PositionComponent with HasGameRef<miJuego> {
   HudGameExtra({super.children, super.priority}) {
-    // positionType = PositionType.viewport;
   }
   late TextComponent blockLivesExtra;
 

@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="esgazpioDavid.blockworld"
+3    package="es.gazpioDavidBlockWordl3"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -202,7 +202,7 @@
 115-->[com.google.firebase:firebase-common:20.3.2] C:\Users\David\.gradle\caches\transforms-3\6e10d488ebcc23afefc866560645fd3c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
 116            android:name="com.google.firebase.provider.FirebaseInitProvider"
 116-->[com.google.firebase:firebase-common:20.3.2] C:\Users\David\.gradle\caches\transforms-3\6e10d488ebcc23afefc866560645fd3c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
-117            android:authorities="esgazpioDavid.blockworld.firebaseinitprovider"
+117            android:authorities="es.gazpioDavidBlockWordl3.firebaseinitprovider"
 117-->[com.google.firebase:firebase-common:20.3.2] C:\Users\David\.gradle\caches\transforms-3\6e10d488ebcc23afefc866560645fd3c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
 118            android:directBootAware="true"
 118-->[com.google.firebase:firebase-common:20.3.2] C:\Users\David\.gradle\caches\transforms-3\6e10d488ebcc23afefc866560645fd3c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43

@@ -1,8 +1,6 @@
 import 'package:flame/components.dart';
-import 'package:flame/events.dart';
 import 'package:flame/experimental.dart';
 import 'package:flame/game.dart';
-import 'package:flame/palette.dart';
 import 'package:flutter/material.dart';
 import 'package:tfggzp/juego/juego_iniado.dart';
 import 'package:tfggzp/juego/jugadores/pinchos.dart';

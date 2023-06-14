@@ -1,10 +1,7 @@
 import 'package:flame/components.dart';
-import 'package:flame/events.dart';
 import 'package:flame/experimental.dart';
 import 'package:flame/game.dart';
-import 'package:flame/palette.dart';
 import 'package:flutter/material.dart';
-import 'package:tfggzp/juego/juego_iniado.dart';
 import 'package:tfggzp/juego/jugadores/pinchos.dart';
 import 'package:tfggzp/juego/overlays/nivelExtra/nivelExtraGame/nivelExtraIniciado.dart';
 import 'package:tiled/tiled.dart';
@@ -86,8 +83,8 @@ class NivelesExtraGame extends Component
           add(pinchitos);
           break;
 
-        case 'monedaWin':
-          final moneda = CoinFinal(
+        case 'monedaFinal':
+          final moneda = CoinFinalLevelFinal(
             gameRef.imagenPersonajes,
             position: posicion,
             size: anchura,

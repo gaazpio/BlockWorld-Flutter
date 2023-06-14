@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="10">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="14">
  <tileset firstgid="1" source="Spritesheet.tsx"/>
  <layer id="1" name="Capa de patrones 1" width="20" height="12">
   <data encoding="csv">
@@ -29,6 +29,9 @@
     <property name="SiguienteNivel" value="nivel6.tmx"/>
    </properties>
   </object>
+  <object id="11" type="pinchos" gid="8" x="301.545" y="319.909" width="32" height="32"/>
+  <object id="12" type="pinchos" gid="8" x="191.091" y="319.5" width="32" height="32"/>
+  <object id="13" type="pinchos" gid="8" x="384.5" y="320" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="4" name="ParaSaltar">
   <object id="9" x="1.5" y="122.667" width="638.417" height="261.333"/>

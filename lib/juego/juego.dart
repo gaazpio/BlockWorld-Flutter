@@ -12,9 +12,9 @@ class miJuego extends FlameGame with HasCollisionDetection {
   int blockLivesExtra = 1;
   int monedasCogidas = 0;
   int monedasFinales=0;
+  int monedasFinalesDis=0;
   late final jugadorMain block;
 
-  // Niveles? nivelActual;
   late Image imagenPersonajes;
   final fixedResolution = Vector2(630, 320);
 
@@ -39,6 +39,12 @@ class miJuego extends FlameGame with HasCollisionDetection {
       if(monedasFinales==4){
         overlays.add("/GameWin");
       }
+
+    if(monedasFinalesDis==2){
+      overlays.add("/GameWinExtra");
+      pauseEngine();
+      AudioGame.pararSonidoFondo();
+    }
       super.update(dt);
   }
 
@@ -48,6 +54,8 @@ class miJuego extends FlameGame with HasCollisionDetection {
     blockLives = 3;
     monedasCogidas = 0;
     monedasFinales=0;
+    monedasFinalesDis=0;
+    blockLivesExtra = 1;
   }
   void reiniciarTodoGameExtra() {
     blockLivesExtra = 1;

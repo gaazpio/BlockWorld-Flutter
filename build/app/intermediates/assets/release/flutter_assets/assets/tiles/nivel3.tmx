@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="26">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="33">
  <tileset firstgid="1" source="Spritesheet.tsx"/>
  <layer id="1" name="Capa de patrones 1" width="25" height="12">
   <data encoding="csv">
@@ -35,21 +35,25 @@
   <object id="19" type="coin" gid="4" x="416" y="160" width="32" height="32"/>
   <object id="20" type="coin" gid="4" x="673" y="127" width="32" height="32"/>
   <object id="21" type="coin" gid="4" x="130.667" y="96" width="32" height="32"/>
+  <object id="28" type="pinchos" gid="8" x="203.898" y="128.069" width="32" height="32"/>
+  <object id="29" type="pinchos" gid="8" x="288.129" y="320.868" width="32" height="32"/>
+  <object id="30" type="pinchos" gid="8" x="128.371" y="321.182" width="32" height="32"/>
+  <object id="31" type="pinchos" gid="8" x="544.25" y="160.083" width="32" height="32"/>
+  <object id="32" type="pinchos" gid="8" x="704.5" y="192" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="3" name="ParaSaltar" visible="0">
+ <objectgroup id="3" name="ParaSaltar">
   <object id="25" x="1.3125" y="95.125" width="797.375" height="285.75"/>
  </objectgroup>
  <objectgroup id="4" name="Plataforma">
   <object id="1" x="543.667" y="287.917" width="224.375" height="31.4167"/>
   <object id="2" x="0.208333" y="191.792" width="64" height="64"/>
-  <object id="3" x="128.333" y="160" width="193.333" height="98"/>
+  <object id="3" x="128.833" y="158" width="193.333" height="98"/>
   <object id="4" x="160.005" y="128.006" width="127.98" height="31.9365"/>
   <object id="5" x="383.458" y="192.917" width="96.6667" height="31"/>
   <object id="6" x="512.182" y="160.258" width="95.8333" height="32.125"/>
   <object id="7" x="736.042" y="128.021" width="63.875" height="32.0625"/>
   <object id="8" x="607.96" y="256.292" width="96.7899" height="31.4167"/>
   <object id="11" x="671.75" y="191.75" width="128.266" height="32.3043"/>
-  <object id="16" type="pinchos" gid="8" x="207.394" y="127.576" width="32" height="32"/>
   <object id="17" type="pinchos" gid="8" x="575.939" y="287.727" width="32" height="32"/>
   <object id="23" x="-0.0625" y="319.909" width="800.063" height="64.0909"/>
  </objectgroup>

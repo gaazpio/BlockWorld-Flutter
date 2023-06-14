@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:tfggzp/juego/juego.dart';
 import '../../../extra/audio_game.dart';
 import '../../../hud/hud.dart';
-import '../../../niveles/niveles.dart';
 import 'nivelesGameExtra.dart';
 
 class nivelExtraIniciado extends World with HasGameRef<miJuego> {
@@ -35,8 +34,8 @@ class nivelExtraIniciado extends World with HasGameRef<miJuego> {
 
 
     joystick = JoystickComponent(
-      knob: CircleComponent(radius: 30, paint: knobPaint),
-      background: CircleComponent(radius: 40, paint: backgroundPaint),
+      knob: CircleComponent(radius: 35, paint: knobPaint),
+      background: CircleComponent(radius: 45, paint: backgroundPaint),
       margin: const EdgeInsets.only(right: 50, bottom: 30),
     );
     gameRef.add(joystick);
