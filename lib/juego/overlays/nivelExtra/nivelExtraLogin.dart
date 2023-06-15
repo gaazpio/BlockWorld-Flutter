@@ -36,7 +36,7 @@ class nivelExtraLogin extends StatelessWidget {
   @override
   Widget build(BuildContextcontext) {
     inputTextsUsuario iUser = inputTextsUsuario(sTitulo: "Correo electrónico");
-    inputTextsContra iPass = inputTextsContra(sTitulo: "Contraseña");
+    inputTextsContra iPass = inputTextsContra(sTitulo: "Contraseña",isPass: true,);
 
     return Scaffold(
       body: SingleChildScrollView(

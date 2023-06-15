@@ -41,8 +41,8 @@ class nivelExtraRegister extends StatelessWidget {
   @override
   Widget build(BuildContextcontext) {
     inputTextsUsuario iUser = inputTextsUsuario(sTitulo: "Correo electrónico");
-    inputTextsContra iPass = inputTextsContra(sTitulo: "Contraseña");
-    inputTextsContra iPass2 = inputTextsContra(sTitulo: "Misma Contraseña");
+    inputTextsContra iPass = inputTextsContra(sTitulo: "Contraseña",isPass: true,);
+    inputTextsContra iPass2 = inputTextsContra(sTitulo: "Misma Contraseña",isPass: true,);
 
     return Scaffold(
       body: SingleChildScrollView(
