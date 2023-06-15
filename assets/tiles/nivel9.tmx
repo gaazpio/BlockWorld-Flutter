@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="29">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="30">
  <tileset firstgid="1" source="Spritesheet.tsx"/>
  <layer id="1" name="Capa de patrones 1" width="20" height="12">
   <data encoding="csv">
@@ -18,7 +18,7 @@
 </data>
  </layer>
  <objectgroup id="5" name="ParaSaltar">
-  <object id="20" x="-0.0606027" y="62.6667" width="640.227" height="321.333"/>
+  <object id="29" x="0.333167" y="95.875" width="639.654" height="288.25"/>
  </objectgroup>
  <objectgroup id="3" name="Objetos">
   <object id="1" type="coin" gid="4" x="306.667" y="110.667" width="32" height="32"/>
