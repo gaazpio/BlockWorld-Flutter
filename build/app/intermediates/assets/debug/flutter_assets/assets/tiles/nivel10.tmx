@@ -21,7 +21,7 @@
   <object id="1" x="0.0625" y="97.2083" width="799.936" height="286.75"/>
  </objectgroup>
  <objectgroup id="2" name="Objetos">
-  <object id="10" type="player" gid="1" x="737.133" y="191.049" width="32" height="32"/>
+  <object id="10" type="player" gid="1" x="737.133" y="131.049" width="32" height="32"/>
   <object id="11" type="coin" gid="4" x="543.333" y="158.916" width="32" height="32"/>
   <object id="12" type="puerta" gid="3" x="18" y="160" width="32" height="32">
    <properties>

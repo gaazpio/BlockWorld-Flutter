@@ -21,7 +21,7 @@
   <object id="1" x="0.00172727" y="95.875" width="799.917" height="288.25"/>
  </objectgroup>
  <objectgroup id="3" name="Objetos">
-  <object id="9" type="player" gid="1" x="46.75" y="158.333" width="32" height="32"/>
+  <object id="9" type="player" gid="1" x="34.75" y="130.333" width="32" height="32"/>
   <object id="10" type="puerta" gid="3" x="735.523" y="95.7273" width="32" height="32">
    <properties>
     <property name="SiguienteNivel" value="nivel9.tmx"/>

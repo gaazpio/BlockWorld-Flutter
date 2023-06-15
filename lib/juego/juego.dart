@@ -60,6 +60,7 @@ class miJuego extends FlameGame with HasCollisionDetection {
   void reiniciarTodoGameExtra() {
     blockLivesExtra = 1;
     blockLives = 3;
+    monedasFinales=0;
   }
 
 }

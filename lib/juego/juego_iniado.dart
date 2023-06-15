@@ -21,7 +21,7 @@ class juegoIniciado extends World with HasGameRef<miJuego> {
     // TODO: implement onLoad
     AudioGame.startBGM("bgm.m4a");
 
-    cargarNivel('nivel1.tmx');
+    cargarNivel('nivel15.tmx');
 
     camera = CameraComponent.withFixedResolution(
       world: this,

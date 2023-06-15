@@ -40,7 +40,7 @@
   <object id="27" type="pinchos" gid="8" x="320.25" y="160.25" width="32" height="32" rotation="90"/>
   <object id="28" type="pinchos" gid="3221225480" x="544.146" y="64.0208" width="32" height="32" rotation="90"/>
  </objectgroup>
- <objectgroup id="4" name="ParaSaltar" visible="0">
+ <objectgroup id="4" name="ParaSaltar">
   <object id="24" x="1.39583" y="95.875" width="639.875" height="288.25"/>
  </objectgroup>
  <objectgroup id="3" name="Plataforma">

@@ -49,6 +49,7 @@ class pause_menu extends StatelessWidget {
                       gameRef.resumeEngine();
                       gameRef.removeAll(gameRef.children);
                       gameRef.reiniciarTodo();
+                      gameRef.reiniciarTodoGameExtra();
                       AudioGame.pararSonidoFondo();
                       gameRef.overlays.add("/MenuPrinci");
                     },

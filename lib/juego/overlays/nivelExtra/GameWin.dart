@@ -110,6 +110,7 @@ class GameWin extends StatelessWidget {
                     game.removeAll(game.children);
                     game.overlays.add("/MenuPrinci");
                     game.reiniciarTodo();
+                    game.reiniciarTodoGameExtra();
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor:blackTextColor,
@@ -175,6 +176,7 @@ class GameWinExtra extends StatelessWidget {
                     game.resumeEngine();
                     game.removeAll(game.children);
                     game.reiniciarTodo();
+                    game.reiniciarTodoGameExtra();
                     game.add(nivelExtraIniciado());
                   },
                   style: ElevatedButton.styleFrom(

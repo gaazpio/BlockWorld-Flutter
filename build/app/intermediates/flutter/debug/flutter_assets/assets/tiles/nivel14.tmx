@@ -4,7 +4,7 @@
  <layer id="1" name="Capa de patrones 1" width="40" height="12">
   <data encoding="csv">
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,
-7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,6,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,9,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,6,6,7,7,6,7,7,6,6,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,9,7,7,7,7,7,7,6,7,7,7,7,7,7,
@@ -18,7 +18,7 @@
 </data>
  </layer>
  <objectgroup id="4" name="ParaSaltar">
-  <object id="41" x="-2" y="64" width="1278" height="314"/>
+  <object id="41" x="-2" y="64" width="1281.64" height="319.667"/>
  </objectgroup>
  <objectgroup id="2" name="Plataforma">
   <object id="1" x="-0.181818" y="320" width="1280.09" height="63.9394"/>
@@ -34,7 +34,7 @@
   <object id="11" x="608" y="1.33333" width="32.3333" height="158.667"/>
   <object id="14" x="1056" y="96" width="32" height="223.636"/>
   <object id="15" x="1056.13" y="-0.0625" width="31.875" height="32.0625"/>
-  <object id="16" x="1248.25" y="32" width="31.8125" height="31.75"/>
+  <object id="16" x="1247.92" y="128.083" width="31.8125" height="32"/>
   <object id="17" x="896.25" y="256.016" width="95.625" height="63.9844"/>
   <object id="18" x="607.875" y="223.994" width="32.0625" height="95.6533"/>
   <object id="19" x="1024" y="223.909" width="32.0909" height="32.0909"/>
@@ -42,9 +42,9 @@
  </objectgroup>
  <objectgroup id="3" name="Objetos">
   <object id="21" type="player" gid="1" x="30.6667" y="224" width="32" height="32"/>
-  <object id="23" gid="4" x="417.333" y="192" width="32" height="32"/>
-  <object id="24" gid="4" x="736.667" y="162.667" width="32" height="32"/>
-  <object id="25" gid="4" x="1120" y="190" width="32" height="32"/>
+  <object id="23" type="coin" gid="4" x="417.333" y="192" width="32" height="32"/>
+  <object id="24" type="coin" gid="4" x="736.667" y="162.667" width="32" height="32"/>
+  <object id="25" type="coin" gid="4" x="1120" y="190" width="32" height="32"/>
   <object id="26" type="enemigo2" gid="5" x="575.708" y="319.833" width="32" height="32">
    <properties>
     <property name="movi" type="object" value="27"/>
@@ -71,7 +71,7 @@
   </object>
   <object id="37" type="pinchos" gid="8" x="1007" y="319.333" width="32" height="32"/>
   <object id="38" type="pinchos" gid="8" x="223.727" y="223.455" width="32" height="32"/>
-  <object id="39" type="puerta" gid="3" x="1248.67" y="31.3333" width="32" height="32">
+  <object id="39" type="puerta" gid="3" x="1248.71" y="57.625" width="32" height="32">
    <properties>
     <property name="SiguienteNivel" value="nivel15.tmx"/>
    </properties>
