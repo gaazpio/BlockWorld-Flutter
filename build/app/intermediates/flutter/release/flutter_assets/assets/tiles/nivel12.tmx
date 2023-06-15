@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="30" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="31">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="30" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="32">
  <tileset firstgid="1" source="Spritesheet.tsx"/>
  <layer id="1" name="Capa de patrones 1" width="30" height="12">
   <data encoding="csv">
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,9,9,7,7,7,7,7,
-7,7,7,7,9,7,7,7,6,7,7,7,7,9,7,7,7,7,7,9,7,7,7,6,6,7,7,7,7,7,
+7,7,7,7,9,7,7,7,6,7,7,7,7,9,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,
 7,7,7,7,6,6,7,7,6,7,7,7,6,6,6,7,7,7,6,6,6,7,7,6,6,7,7,7,7,7,
 6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,
@@ -18,11 +18,11 @@
 </data>
  </layer>
  <objectgroup id="4" name="ParaSaltar">
-  <object id="28" x="0" y="64" width="960" height="320"/>
+  <object id="31" x="2.0415" y="93.875" width="958.021" height="288.25"/>
  </objectgroup>
  <objectgroup id="2" name="Plataforma">
   <object id="1" x="0" y="320.208" width="958.667" height="61.125"/>
-  <object id="2" x="447.938" y="224.25" width="64.0625" height="96.75"/>
+  <object id="2" x="447.938" y="224.25" width="64.0625" height="95.9318"/>
   <object id="3" x="288.5" y="224.5" width="96" height="31"/>
   <object id="4" x="0" y="128" width="63.6364" height="32.1364"/>
   <object id="5" x="127.515" y="95.9318" width="63.6364" height="32.1364"/>
@@ -35,7 +35,7 @@
   <object id="12" x="32" y="224.5" width="192" height="63.5"/>
  </objectgroup>
  <objectgroup id="3" name="Objetos">
-  <object id="13" type="player" gid="1" x="464.25" y="206.25" width="32" height="32"/>
+  <object id="13" type="player" gid="1" x="464.583" y="166.583" width="32" height="32"/>
   <object id="14" type="puerta" gid="3" x="896.042" y="255.875" width="32" height="32">
    <properties>
     <property name="SiguieteNivel" value="nivel13.tmx"/>

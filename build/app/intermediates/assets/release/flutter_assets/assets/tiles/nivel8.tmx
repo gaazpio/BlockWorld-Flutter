@@ -21,7 +21,7 @@
   <object id="1" x="0.00172727" y="95.875" width="799.917" height="288.25"/>
  </objectgroup>
  <objectgroup id="3" name="Objetos">
-  <object id="9" type="player" gid="1" x="46.75" y="158.333" width="32" height="32"/>
+  <object id="9" type="player" gid="1" x="34.75" y="130.333" width="32" height="32"/>
   <object id="10" type="puerta" gid="3" x="735.523" y="95.7273" width="32" height="32">
    <properties>
     <property name="SiguienteNivel" value="nivel9.tmx"/>
@@ -32,7 +32,7 @@
     <property name="movi" type="object" value="13"/>
    </properties>
   </object>
-  <object id="13" x="160" y="266.667">
+  <object id="13" x="135.667" y="255">
    <point/>
   </object>
   <object id="14" type="pinchos" gid="8" x="241.333" y="224" width="32" height="32"/>
@@ -41,13 +41,13 @@
   <object id="17" type="coin" gid="4" x="541.333" y="291.334" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="4" name="Plataforma">
-  <object id="2" x="0.848485" y="224" width="128.333" height="96.6667"/>
-  <object id="3" x="192.765" y="224.584" width="160" height="31.3333"/>
+  <object id="2" x="0.848485" y="224" width="127.177" height="96.6667"/>
+  <object id="3" x="192.026" y="224.584" width="160.739" height="31.3333"/>
   <object id="4" x="320.009" y="160" width="31.8181" height="64.3333"/>
   <object id="5" x="415.848" y="160.167" width="96" height="64"/>
   <object id="6" x="575.348" y="129.667" width="97" height="62.5"/>
   <object id="7" x="703.182" y="95.0001" width="96.6667" height="33"/>
   <object id="8" x="0" y="320.182" width="799.455" height="63.8807"/>
-  <object id="18" x="160.125" y="256.208" width="32" height="31.75"/>
+  <object id="18" x="160.024" y="256.194" width="32" height="31.75"/>
  </objectgroup>
 </map>

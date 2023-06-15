@@ -514,7 +514,7 @@
   <object id="1169" x="9056.25" y="160.104" width="32.0065" height="63.7084"/>
   <object id="1170" x="3679.94" y="288" width="32.0625" height="32.0625"/>
  </objectgroup>
- <objectgroup id="4" name="PlataformaDeSalto" visible="0">
+ <objectgroup id="4" name="PlataformaDeSalto">
   <object id="675" x="5.25" y="65.125" width="12792.5" height="319.75"/>
  </objectgroup>
 </map>
