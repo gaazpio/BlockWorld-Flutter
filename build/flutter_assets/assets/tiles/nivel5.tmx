@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="14">
+ <tileset firstgid="1" source="Spritesheet.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="20" height="12">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <objectgroup id="2" name="Objetos">
+  <object id="1" type="player" gid="1" x="304" y="95" width="32" height="32"/>
+  <object id="7" type="puerta" gid="3" x="544" y="254" width="32" height="32">
+   <properties>
+    <property name="SiguienteNivel" value="nivel6.tmx"/>
+   </properties>
+  </object>
+  <object id="8" type="puerta" gid="3" x="65" y="256" width="32" height="32">
+   <properties>
+    <property name="SiguienteNivel" value="nivel6.tmx"/>
+   </properties>
+  </object>
+  <object id="11" type="pinchos" gid="8" x="301.545" y="319.909" width="32" height="32"/>
+  <object id="12" type="pinchos" gid="8" x="191.091" y="319.5" width="32" height="32"/>
+  <object id="13" type="pinchos" gid="8" x="384.5" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="4" name="ParaSaltar">
+  <object id="9" x="1.5" y="122.667" width="638.417" height="261.333"/>
+ </objectgroup>
+ <objectgroup id="3" name="Plataforma">
+  <object id="4" x="1" y="320" width="638" height="62"/>
+  <object id="5" x="511.5" y="255.5" width="96.5" height="32.5"/>
+  <object id="6" x="31.5" y="255" width="97.5" height="33"/>
+ </objectgroup>
+</map>

@@ -10,29 +10,23 @@ import 'package:tfggzp/juego/jugadores/enemigo1.dart';
 import 'package:tfggzp/juego/jugadores/enemigo2.dart';
 import 'package:tfggzp/juego/jugadores/pinchos.dart';
 import 'package:tfggzp/juego/jugadores/plataformas/plataforma.dart';
-import 'package:tfggzp/juego/overlays/nivelExtra/nivelExtraGame/nivelExtraIniciado.dart';
 import '../juego.dart';
-import 'coinFinal.dart';
 
 
 class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<miJuego>, TapCallbacks{
 
   final Vector2 velocidad= Vector2(0, 0);
   double velocidadHorizontal= 0;
-  double moveSpeed= 150;
-  double velocidadSalto =560;
-  double saltoChetado=900;
-  double gravedad = 30;
+  double moveSpeed= 800;
+  double velocidadSalto =500;
+  double gravedad = 10;
   final Vector2 sizeBlock= Vector2.all(30);
-
-  int vecesUsadasSuperSalto=0;
 
   late Vector2 maxClamp;
   late Vector2 minClamp;
 
   bool estaEnElSuelo=false;
   bool estoySaltando = false;
-  bool tipoSalto=false;
 
 
   jugadorMain(Image image, {
@@ -67,30 +61,28 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<m
   }
 
   @override
-  Future<void>? onLoad() {
-    add(CircleHitbox());
+  Future<void>? onLoad()async {
+    await add(CircleHitbox());
   }
 
 
   @override
   void update(double dt) {
     // TODO: implement update
-    velocidad.x = velocidadHorizontal * moveSpeed;
     velocidad.y += gravedad;
 
     if(estoySaltando){
       if(estaEnElSuelo){
-        velocidad.y= -saltoChetado;
-        estaEnElSuelo=false;
+          velocidad.y= -velocidadSalto;
+          estaEnElSuelo=false;
       }
       estoySaltando=false;
     }
 
-    saltito();
+    velocidad.y= velocidad.y.clamp(-velocidadSalto, 150);
 
     position += velocidad *dt;
 
-    position.clamp(minClamp,maxClamp);
     super.update(dt);
   }
 
@@ -103,6 +95,7 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<m
        final medio =( intersectionPoints.elementAt(0) + intersectionPoints.elementAt(1))/2;
        final collisionN = absoluteCenter-medio;
        final distacia= (size.x/2)- collisionN.length;
+       collisionN.normalized();
 
        if(Vector2(0, -1).dot(collisionN)>0.9){
          estaEnElSuelo=true;
@@ -139,20 +132,5 @@ class jugadorMain extends SpriteComponent with CollisionCallbacks , HasGameRef<m
         ))
     );
   }
-
-
-  void saltito() async{
-    if(tipoSalto){
-      velocidad.y= velocidad.y.clamp(-saltoChetado, 150);
-      await Future.delayed(Duration(seconds: 1));
-      tipoSalto=false;
-
-    }else{
-      velocidad.y= velocidad.y.clamp(-velocidadSalto, 150);
-    }
-
-  }
-
-
 
 }

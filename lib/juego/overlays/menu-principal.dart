@@ -7,11 +7,14 @@ import 'package:google_fonts/google_fonts.dart';
 class MenuPrinci extends StatelessWidget {
   final miJuego gameRef;
 
-  const MenuPrinci({Key? key, required this.gameRef})
-      : super(key: key);
+  const MenuPrinci({Key? key, required this.gameRef}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+
+    double screenWidth= MediaQuery.of(context).size.width;
+    double screenHeight= MediaQuery.of(context).size.height;
+
     return Scaffold(
       body: Container(width: 1920,
         decoration: BoxDecoration(
@@ -21,6 +24,7 @@ class MenuPrinci extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
+                if(screenWidth > 660.0)
                 Padding(
                   padding: EdgeInsets.fromLTRB(0, 45, 0, 0),
                   child: Text(
@@ -33,7 +37,101 @@ class MenuPrinci extends StatelessWidget {
                     ),
                   ),
                 ),
+                if(screenWidth > 466 && screenWidth <= 660.0)
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(0, 45, 0, 0),
+                    child: Text(
+                      'Block World',
+                      style: GoogleFonts.pressStart2p(
+                        fontSize: 40,
+                        fontWeight: FontWeight.w700,
+                        color: Color.fromRGBO(205, 205, 205, 1),
+                      ),
+                    ),
+                  ),
+                if(screenWidth <= 466)
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(0, 45, 0, 0),
+                    child: Text(
+                      'Block World',
+                      style: GoogleFonts.pressStart2p(
+                        fontSize: 30,
+                        fontWeight: FontWeight.w700,
+                        color: Color.fromRGBO(205, 205, 205, 1),
+                      ),
+                    ),
+                  ),
+                if(screenWidth > 660.0)
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(0, 60, 0, 0),
+                        child: SizedBox(
+                          width: 90,
+                          height: 70,
+                          child: ElevatedButton.icon(
+                            onPressed: () {
+                              gameRef.overlays.remove("/MenuPrinci");
+                              gameRef.overlays.add("/Settings");
+                            },
+                            label: const Text(
+                              "",
+                              style: TextStyle(fontSize: 19),
+                            ),
+                            style: ElevatedButton.styleFrom(padding: EdgeInsets.fromLTRB(6, 0, 0,0) ,
+                              backgroundColor: Color.fromRGBO(59, 38, 22, 1),
+                            ), icon:Icon(Icons.settings,size: 56,color: Color.fromRGBO(205, 205, 205, 1)),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(130, 40, 130, 0),
+                        child: SizedBox(
+                          width: 110,
+                          height: 100,
+                          child: ElevatedButton.icon(
+                            onPressed: () {
+                              gameRef.overlays.remove("/MenuPrinci");
+                              gameRef.add(juegoIniciado());
 
+                              //gameRef.overlays.add("/JuegoPrincipal");
+                              //Navigator.of(context).popAndPushNamed("/JuegoPrincipal");
+                            },
+                            label: const Text(
+                              "",
+                              style: TextStyle(fontSize: 18),
+                            ),
+                            style: ElevatedButton.styleFrom(padding: EdgeInsets.fromLTRB(6, 0, 0,0) ,
+                              backgroundColor: Color.fromRGBO(59, 38, 22, 1),
+                            ), icon:Icon(Icons.play_arrow,size: 96,color: Color.fromRGBO(205, 205, 205, 1)),
+                          ),
+                        ),
+                      ),
+
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(0, 60, 0, 0),
+                        child: SizedBox(
+                          width: 90,
+                          height: 70,
+                          child: ElevatedButton.icon(
+                            onPressed: () {
+                              gameRef.overlays.remove("/MenuPrinci");
+                              gameRef.overlays.add("/Informacion");
+                            },
+                            label: const Text(
+                              "",
+                              style: TextStyle(fontSize: 18),
+                            ),
+                            style: ElevatedButton.styleFrom(padding: EdgeInsets.fromLTRB(6, 0, 0,0) ,
+                              backgroundColor: Color.fromRGBO(59, 38, 22, 1),
+                            ), icon:Icon(Icons.info,size: 59,color: Color.fromRGBO(205, 205, 205, 1)),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                if(screenWidth > 466 && screenWidth <= 660.0)
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -49,7 +147,6 @@ class MenuPrinci extends StatelessWidget {
                           },
                           label: const Text(
                             "",
-                            style: TextStyle(fontSize: 19),
                           ),
                           style: ElevatedButton.styleFrom(padding: EdgeInsets.fromLTRB(6, 0, 0,0) ,
                             backgroundColor: Color.fromRGBO(59, 38, 22, 1),
@@ -72,7 +169,6 @@ class MenuPrinci extends StatelessWidget {
                           },
                           label: const Text(
                             "",
-                            style: TextStyle(fontSize: 18),
                           ),
                           style: ElevatedButton.styleFrom(padding: EdgeInsets.fromLTRB(6, 0, 0,0) ,
                             backgroundColor: Color.fromRGBO(59, 38, 22, 1),
@@ -82,7 +178,7 @@ class MenuPrinci extends StatelessWidget {
                     ),
 
                     Padding(
-                      padding: EdgeInsets.fromLTRB(0, 60, 0, 0),
+                      padding: EdgeInsets.fromLTRB(0, 60, 120, 0),
                       child: SizedBox(
                         width: 90,
                         height: 70,
@@ -93,7 +189,6 @@ class MenuPrinci extends StatelessWidget {
                           },
                           label: const Text(
                             "",
-                            style: TextStyle(fontSize: 18),
                           ),
                           style: ElevatedButton.styleFrom(padding: EdgeInsets.fromLTRB(6, 0, 0,0) ,
                             backgroundColor: Color.fromRGBO(59, 38, 22, 1),

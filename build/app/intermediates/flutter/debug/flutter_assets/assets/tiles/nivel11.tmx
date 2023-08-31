@@ -52,7 +52,7 @@
   <object id="27" x="64.2083" y="127.995" width="31.7917" height="31.9636"/>
   <object id="33" x="-0.0506061" y="320.045" width="799.98" height="63.9091"/>
  </objectgroup>
- <objectgroup id="4" name="ParaSaltar" visible="0">
+ <objectgroup id="4" name="ParaSaltar">
   <object id="42" x="-0.968" y="97.625" width="799.936" height="286.75"/>
  </objectgroup>
 </map>

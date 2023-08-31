@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="23">
+ <tileset firstgid="1" source="Spritesheet.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="25" height="12">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,9,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,6,6,7,7,6,6,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,6,7,6,7,7,7,7,7,7,7,7,7,7,7,7,
+6,6,7,7,7,7,7,7,7,7,7,7,6,7,6,7,7,9,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,6,6,6,7,7,7,9,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,9,9,7,7,7,7,7,9,7,7,7,7,7,9,9,7,7,7,7,7,7,7,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <objectgroup id="3" name="ParaSaltar">
+  <object id="1" x="0.0625" y="97.2083" width="799.936" height="286.75"/>
+ </objectgroup>
+ <objectgroup id="2" name="Objetos">
+  <object id="10" type="player" gid="1" x="737.133" y="131.049" width="32" height="32"/>
+  <object id="11" type="coin" gid="4" x="543.333" y="158.916" width="32" height="32"/>
+  <object id="12" type="puerta" gid="3" x="18" y="160" width="32" height="32">
+   <properties>
+    <property name="SiguienteNivel" value="nivel11.tmx"/>
+   </properties>
+  </object>
+  <object id="13" type="enemigo2" gid="5" x="0.25" y="319.625" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="15"/>
+   </properties>
+  </object>
+  <object id="15" x="780.606" y="286.402">
+   <point/>
+  </object>
+  <object id="17" type="coin" gid="4" x="176.909" y="63.2727" width="32" height="32"/>
+  <object id="21" type="pinchos" gid="8" x="224.5" y="320" width="32" height="32"/>
+  <object id="22" type="pinchos" gid="8" x="97" y="96" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="4" name="Plataforma">
+  <object id="2" x="0.295455" y="159.909" width="63.7609" height="32.0455"/>
+  <object id="3" x="671.826" y="223.996" width="128.188" height="31.9336"/>
+  <object id="4" x="511.084" y="193.833" width="96.3333" height="30.6667"/>
+  <object id="5" x="320.083" y="96.0208" width="31.9348" height="64.5625"/>
+  <object id="6" x="449.083" y="160.167" width="30" height="63.6667"/>
+  <object id="7" x="223.871" y="96.2197" width="64.125" height="31.8636"/>
+  <object id="8" x="384.042" y="128.125" width="32" height="64"/>
+  <object id="9" x="96.1136" y="96.0682" width="64.5" height="31.9545"/>
+  <object id="19" x="-2.66667" y="320" width="802.667" height="64"/>
+ </objectgroup>
+</map>

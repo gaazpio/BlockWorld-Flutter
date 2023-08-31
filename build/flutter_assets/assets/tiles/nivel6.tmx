@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="58">
+ <tileset firstgid="1" source="Spritesheet.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="40" height="12">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,6,6,6,7,7,7,7,7,7,7,7,6,6,
+7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,7,7,7,7,
+7,6,6,7,7,7,7,7,6,6,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,
+7,7,7,7,6,6,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <objectgroup id="4" name="ParaSaltar">
+  <object id="39" x="0.227273" y="98.2386" width="1279.7" height="288.25"/>
+ </objectgroup>
+ <objectgroup id="2" name="Plataforma">
+  <object id="40" x="384" y="95.9893" width="416.788" height="64.0109"/>
+  <object id="41" x="383.879" y="256.009" width="416.909" height="63.9872"/>
+  <object id="42" x="0.00252525" y="320.033" width="1280.03" height="63.9574"/>
+  <object id="43" x="128" y="224" width="63.9697" height="31.8485"/>
+  <object id="44" x="32.0151" y="191.409" width="63.9697" height="31.8485"/>
+  <object id="45" x="255.795" y="191.932" width="63.9697" height="31.8485"/>
+  <object id="46" x="319.742" y="128.009" width="64.2306" height="31.9149"/>
+  <object id="49" x="959.867" y="191.909" width="32.0843" height="32.3636"/>
+  <object id="50" x="1024.14" y="160.311" width="128.466" height="32.1307"/>
+  <object id="51" x="1216.19" y="128" width="63.7577" height="31.9935"/>
+  <object id="52" x="863.897" y="127.485" width="96.2055" height="32.3636"/>
+  <object id="53" x="832.443" y="224.061" width="96.2055" height="32.3636"/>
+ </objectgroup>
+ <objectgroup id="3" name="Objetos">
+  <object id="2" type="coin" gid="4" x="994.485" y="90.6892" width="32" height="32"/>
+  <object id="3" type="coin" gid="4" x="590.985" y="216.189" width="32" height="32"/>
+  <object id="5" type="player" gid="1" x="48.6517" y="181.106" width="32" height="32"/>
+  <object id="6" type="enemigo2" gid="5" x="768.047" y="95.8562" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="7"/>
+   </properties>
+  </object>
+  <object id="7" x="419.258" y="51.0983">
+   <point/>
+  </object>
+  <object id="10" type="enemigo1" gid="2" x="1235.65" y="317.25" width="32" height="32">
+   <properties>
+    <property name="movi" type="object" value="11"/>
+   </properties>
+  </object>
+  <object id="11" x="833.068" y="285.439">
+   <point/>
+  </object>
+  <object id="12" type="coin" gid="4" x="181.318" y="147.189" width="32" height="32"/>
+  <object id="14" type="pinchos" gid="8" x="1073.61" y="160.062" width="32" height="32"/>
+  <object id="15" type="pinchos" gid="8" x="511.955" y="255.22" width="32" height="32"/>
+  <object id="18" type="pinchos" gid="8" x="672.048" y="255.981" width="32" height="32"/>
+  <object id="54" type="puerta" gid="3" x="1232.82" y="127.994" width="32" height="32">
+   <properties>
+    <property name="SiguienteNivel" value="nivel7.tmx"/>
+   </properties>
+  </object>
+  <object id="55" type="pinchos" gid="8" x="544.583" y="95.75" width="32" height="32"/>
+  <object id="56" type="pinchos" gid="8" x="864.667" y="224.333" width="32" height="32"/>
+  <object id="57" type="pinchos" gid="8" x="896.667" y="127.333" width="32" height="32"/>
+ </objectgroup>
+</map>
